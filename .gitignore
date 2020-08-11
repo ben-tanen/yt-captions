@@ -1,1 +1,3 @@
+*.gdoc
+.DS_Store
 data/api-keys.json

@@ -11,7 +11,7 @@ youtube = build('youtube', 'v3', developerKey = api_keys["yt-data-api-key"])
 # loop through YT searches to get top channels by viewCount
 channels = [ ]
 nextPageToken = None
-for x in range(0, 5):
+for x in range(0, 10):
     # search for channels by viewCount
     # using nextPageToken from prev searches
     data = youtube.search().list(
@@ -56,10 +56,20 @@ df2 = pd.DataFrame(channel_data)
 df3 = df.merge(df2, how = 'left', on = 'channelId')
 
 d = youtube.channels().list(
-    part = "snippet,contentDetails,statistics",
+    part = "snippet,contentDetails,statistics,localizations",
     forUsername = "blackboxfilmcompany",
     maxResults = 10
 ).execute()
+
+# get caption information for video
+d = youtube.captions().list(
+    part = "id,snippet",
+    videoId = "erQ_9yEz0ls"
+).execute()
+
+# parse out type and language for caption tracks
+[{'lang': cap['snippet']['language'], 'type': cap['snippet']['trackKind']} for cap in d['items']]
+
 
     
     
