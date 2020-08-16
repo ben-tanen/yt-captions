@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-import json
+import json, math
 from apiclient.discovery import build
 import pandas as pd
 from datetime import datetime
@@ -9,59 +9,93 @@ from datetime import datetime
 api_keys = json.load(open("data/api-keys.json"))
 youtube = build('youtube', 'v3', developerKey = api_keys["yt-data-api-key"])
 
-# loop through YT trending videos
-trendingVids = [ ]
-nextPageToken = None
-for x in range(0, 3):
-    # get top trending videos
-    # using nextPageToken from prev searches
-    data = youtube.videos().list(
-        pageToken = nextPageToken,
-        part = "snippet,statistics",
-        chart = "mostPopular",
-        maxResults = 50
-    ).execute()
+######################
+## HELPER FUNCTIONS ##
+######################
+
+# get n top trending videos from particular category (0 = no category)
+def getTrendingVideos(n = 50, category = 0):
+    vids = [ ]
+    nextPageToken = None
     
-    # append channel data to running list
-    trendingVids += [{
-        'channelTitle': e['snippet']['channelTitle'],
-        'channelId': e['snippet']['channelId'],
-        'videoTitle': e['snippet']['title'],
-        'videoTitleLoc': e['snippet']['localized']['title'],
-        'videoId': e['id'],
-        'videoTags': '|'.join(e['snippet']['tags']),
-        'views': int(e['statistics']['viewCount']),
-        'queryTime': datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    } for e in data['items']]
-                     
-    # get nextPage token (for future searches)
-    if "nextPageToken" in data:
-        nextPageToken = data['nextPageToken']
+    # query 1 - 4 times (depending on how many videos desired)
+    # max results from YT is 200 with 50 per time
+    for ix in range(0, math.ceil(min(max(n, 50), 200) / 50)):
+        data = youtube.videos().list(
+            pageToken = nextPageToken,
+            part = "snippet,statistics,topicDetails",
+            chart = "mostPopular",
+            regionCode = 'us',
+            videoCategoryId = category,
+            maxResults = min(n - len(vids), 50)
+        ).execute()
         
-# assign trending rank to videos
-for ix in range(0, len(trendingVids)):
-    trendingVids[ix]['trendingRank'] = ix + 1
+        vids += [{
+            'channelTitle': e['snippet']['channelTitle'],
+            'channelId': e['snippet']['channelId'],
+            'videoTitle': e['snippet']['title'],
+            'videoTitleLoc': e['snippet']['localized']['title'],
+            'videoId': e['id'],
+            'videoSearchCategoryId': str(category),
+            'videoCategoryId': e['snippet']['categoryId'],
+            'videoViews': int(e['statistics']['viewCount']) if 'viewCount' in e['statistics'] else None,
+            'videoQueryTime': datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        } for e in data['items']]
+        
+        # if no results or end of results, stop looping
+        if len(data['items']) == 0 or "nextPageToken" not in data:
+            break
+        else:
+            nextPageToken = data['nextPageToken']
+            
+    # assign trending rank to videos
+    for ix in range(0, len(vids)):
+        vids[ix]['videoTrendingRank'] = ix + 1
+        
+    return(vids)
+
+# get captions for given videos
+def getCaptions(videos = [ ]):
+    captions = [ ]
+    
+    for vid in videos:
+        data = youtube.captions().list(
+            part = "id,snippet",
+            videoId = vid['videoId']
+        ).execute()
+        
+        captions += [{
+            'videoId': vid['videoId'],
+            'captionLang': e['snippet']['language'],
+            'captionType': e['snippet']['trackKind']
+        } for e in data['items']]
+        
+    return(captions)
+
+##################################
+## QUERY TOP VIDEOS             ##
+## THEN CAPTION + CATEGORY INFO ##
+##################################
+
+# query top trending videos
+trendingVids = getTrendingVideos(n = 150)
+vid_df = pd.DataFrame(trendingVids)
 
 # get caption information for trending videos
-captions = [ ]
-for vid in trendingVids:
-    data = youtube.captions().list(
-        part = "id,snippet",
-        videoId = vid['videoId']
-    ).execute()
-    
-    captions += [{
-        'videoId': vid['videoId'],
-        'captionLang': e['snippet']['language'],
-        'captionType': e['snippet']['trackKind']
-    } for e in data['items']]
-    
-# convert to data frames and merge together
-vid_df = pd.DataFrame(trendingVids)
+captions = getCaptions(videos = trendingVids)
 cap_df = pd.DataFrame(captions)
 
-combine_df = vid_df.merge(cap_df, how = 'left', on = 'videoId')
+# get video cateogries
+cat_data = youtube.videoCategories().list(part = 'snippet', regionCode = 'us').execute()
+cat_df = pd.DataFrame([{
+    'id': e['id'],
+    'videoCategory': e['snippet']['title'],
+    'assignable': e['snippet']['assignable']
+    } for e in cat_data['items']])
+
+# merge data together
+all_df = vid_df.merge(cap_df, how = 'left', on = 'videoId').merge(cat_df, how = 'left', left_on = 'videoCategoryId', right_on = 'id')
 
 # save to excel
-combine_df.to_csv("data/%s_trending-vid-captions.xlsx" % datetime.now().strftime("%Y-%m-%d_%H-%M-%S"))
+all_df.to_csv("data/%s_trending-vid-captions.csv" % datetime.now().strftime("%Y-%m-%d_%H-%M-%S"), index = False)
 
