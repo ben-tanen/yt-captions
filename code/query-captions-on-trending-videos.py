@@ -1,9 +1,11 @@
 # -*- coding: utf-8 -*-
 
-import json, math
+import os, sys, json, math
 from apiclient.discovery import build
 import pandas as pd
 from datetime import datetime
+
+os.chdir("/Users/ben-tanen/Desktop/Projects/yt-captions")
 
 # import api key and init youtube instance
 api_keys = json.load(open("data/api-keys.json"))
@@ -77,8 +79,18 @@ def getCaptions(videos = [ ]):
 ## THEN CAPTION + CATEGORY INFO ##
 ##################################
 
+# check if file already exists for today
+# if it does, quit
+if len([f for f in os.listdir("data") if ".csv" in f and datetime.now().strftime("%Y-%m-%d") in f]):
+    print("%s: data already exists for the day" % (datetime.now().strftime("%Y-%m-%d %I:%M %p")))
+    sys.exit()
+
 # query top trending videos
-trendingVids = getTrendingVideos(n = 150)
+try:
+    trendingVids = getTrendingVideos(n = 150)
+except:
+    print("%s: query failed [likely quota issue]" % (datetime.now().strftime("%Y-%m-%d %I:%M %p")))
+    sys.exit()
 vid_df = pd.DataFrame(trendingVids)
 
 # get caption information for trending videos
@@ -99,3 +111,4 @@ all_df = vid_df.merge(cap_df, how = 'left', on = 'videoId').merge(cat_df, how = 
 # save to excel
 all_df.to_csv("data/%s_trending-vid-captions.csv" % datetime.now().strftime("%Y-%m-%d_%H-%M-%S"), index = False)
 
+print("%s: saved results for day (%d videos)" % (datetime.now().strftime("%Y-%m-%d %I:%M %p"), len(trendingVids)))
