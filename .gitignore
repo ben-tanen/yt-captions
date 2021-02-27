@@ -1,3 +1,4 @@
 *.gdoc
+.Rhistory
 .DS_Store
-data/api-keys.json
+data/setup/api-keys.json
