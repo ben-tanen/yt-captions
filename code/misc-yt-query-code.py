@@ -5,7 +5,7 @@ from apiclient.discovery import build
 import pandas as pd
 
 # import api key and init youtube instance
-api_keys = json.load(open("data/api-keys.json"))
+api_keys = json.load(open("data/setup/api-keys.json"))
 youtube = build('youtube', 'v3', developerKey = api_keys["yt-data-api-key"])
 
 # loop through YT searches to get top channels by viewCount
