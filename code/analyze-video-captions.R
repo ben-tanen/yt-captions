@@ -18,7 +18,7 @@ files <- lapply(list.files(pattern = ".csv"), read.csv)
 # languages encoded by BCP-47 code, see below links for info:
 # https://www.mesalliance.org/wp-content/uploads/2019/07/Language-Metadata-Table-LMT-V2.0.pdf
 # http://linkedvocabs.org/lingvoj/languages/all.html
-lang_cw <- read_excel("language-crosswalk.xlsx")
+lang_cw <- read_excel("setup/language-crosswalk.xlsx")
 
 ### stack video track data + merge on language
 vidtracks <- lapply(files, function(dt) {
@@ -26,6 +26,12 @@ vidtracks <- lapply(files, function(dt) {
         select(channelTitle, channelId, videoTitle, videoId, captionLang, captionType, videoCategory) %>%
         return()
 }) %>% rbindlist() %>% unique() %>% left_join(lang_cw, by = c("captionLang" = "code"))
+
+### identify any instances without capptionLang
+vidtracks %>%
+    filter(captionLang != "" & (language == "" | is.na(language))) %>%
+    arrange(captionLang) %>%
+    View()
 
 ### group by video to see which videos have caption tracks
 vids <- vidtracks %>%
