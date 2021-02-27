@@ -5,7 +5,7 @@ from apiclient.discovery import build
 import pandas as pd
 from datetime import datetime
 
-os.chdir("/Users/ben-tanen/Desktop/Projects/yt-captions")
+# os.chdir("/Users/ben-tanen/Desktop/Projects/yt-captions")
 
 # import api key and init youtube instance
 api_keys = json.load(open("data/setup/api-keys.json"))
