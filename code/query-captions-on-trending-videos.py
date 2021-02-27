@@ -5,7 +5,8 @@ from apiclient.discovery import build
 import pandas as pd
 from datetime import datetime
 
-# os.chdir("/Users/ben-tanen/Desktop/Projects/yt-captions")
+if os.getcwd()[-11:] != "yt-captions":
+    os.chdir("/Users/ben-tanen/Desktop/Projects/yt-captions")
 
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "data/setup/gcloud-service-keys.json"
 

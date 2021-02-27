@@ -3,7 +3,8 @@
 import os
 import youtube_dl
 
-os.chdir("/Users/ben-tanen/Desktop/Projects/yt-captions")
+if os.getcwd()[-11:] != "yt-captions":
+    os.chdir("/Users/ben-tanen/Desktop/Projects/yt-captions")
 
 opts = {
     "skip_download": True, 
