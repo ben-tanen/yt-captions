@@ -18,6 +18,10 @@ jobs:
         uses: ./.github/actions/build_py_env
         with:
           requirements: data/setup/scraper-reqs.txt
+      - name: Build gcloud-service-keys
+        run: printf '{%s}' "${{ secrets.GCLOUD_SERVICE_KEY }}" > data/setup/gcloud-service-keys.json
+      - name: Init gcloud-service-keys
+        run: export GOOGLE_APPLICATION_CREDENTIALS = "data/setup/gcloud-service-keys.json"
       - name: Build api-keys
         run: printf '{"yt-data-api-key":"%s"}\n' "${{ secrets.YOUTUBE_API_KEYS }}" > data/setup/api-keys.json
       - name: Run Scraper Script
