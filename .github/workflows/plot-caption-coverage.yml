@@ -1,4 +1,4 @@
-name: Simple R Workflow
+name: Plot YT Captions
 on:
   schedule:
     - cron: '0 18 * * *'
@@ -14,7 +14,7 @@ jobs:
         uses: r-lib/actions/setup-r@v1
         with:
           r-version: 3.6.1
-      - name: Install packages
+      - name: Install Packages
         run: |
           install.packages(c("dplyr", "data.table", "tidyr", "ggplot2", "scales"))
         shell: Rscript {0}
