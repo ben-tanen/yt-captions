@@ -8,7 +8,7 @@ from datetime import datetime
 os.chdir("/Users/ben-tanen/Desktop/Projects/yt-captions")
 
 # import api key and init youtube instance
-api_keys = json.load(open("data/api-keys.json"))
+api_keys = json.load(open("data/setup/api-keys.json"))
 youtube = build('youtube', 'v3', developerKey = api_keys["yt-data-api-key"])
 
 ######################
