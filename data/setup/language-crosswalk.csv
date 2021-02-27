@@ -1,0 +1,96 @@
+"code","language","from_data","n_vid"
+"af","Afrikaans",1,1
+"am","Amhric",1,1
+"ar","Arabic",1,58
+"az","Azerbaijani",1,4
+"bg","Bulgarian",1,6
+"bn","Bangla",1,5
+"ca","Catalan",1,4
+"cs","Czech",1,29
+"da","Danish",1,25
+"de","German",1,102
+"de-DE","German (Germany)",1,30
+"el","Greek",1,18
+"en","English",1,4484
+"en-CA","English (Canada)",1,2
+"en-GB","English (United Kingdom)",1,22
+"en-IE","English (Ireland)",1,3
+"en-IN","English (India)",1,1
+"en-US","English (United States)",1,150
+"eo","Esperanto",1,3
+"es","Spanish",1,371
+"es-419","Spanish (Latin America)",1,66
+"es-ES","Spanish (Spain)",1,44
+"es-MX","Spanish (Mexico)",1,39
+"es-US","Spanish (United States)",1,3
+"et","Estonian",1,2
+"eu","Basque",1,3
+"fa","Persian",1,10
+"fa-AF","Persian (Afghanistan)",1,1
+"fa-IR","Persian (Iran)",1,7
+"fi","Finnish",1,38
+"fil","Filipino",1,13
+"fj","Fijian",1,2
+"fr","French",1,144
+"fr-BE","French (Belgium)",1,1
+"fr-CA","French (Canada)",1,7
+"fr-FR","French (France)",1,24
+"gu","Gujarati",1,1
+"hi","Hindi",1,34
+"hr","Croatian",1,8
+"hu","Hungarian",1,21
+"hy","Amenian",1,3
+"id","Indonesian",1,56
+"id-ID","Indonesian (Indonesia)",1,1
+"ig","Igbo",NA,NA
+"is","Icelandic",1,2
+"it","Italian",1,97
+"iw","Hebrew",1,9
+"ja","Japanese",1,150
+"kk","Kazakh",1,3
+"km","Khmer",1,5
+"kn","Kannada",1,1
+"ko","Korean",1,194
+"lo","Lao",1,3
+"lt","Lithuanian",1,2
+"lv","Latvian",1,3
+"mk","Macedonian",1,3
+"ml","Malayalam",1,1
+"mn","Mongolian",1,3
+"mr","Marathi",1,1
+"ms","Malay",1,14
+"my","Burmese",1,3
+"nl","Dutch",1,97
+"nl-BE","Dutch (Belgium)",1,1
+"nl-NL","Dutch (Netherands)",1,19
+"no","Norwegian",1,27
+"pa","Panjabi",1,1
+"pl","Polish",1,74
+"pt","Portugese",1,112
+"pt-BR","Portugese (Brazil)",1,90
+"pt-PT","Portugese (Portugal)",1,20
+"ro","Romanian",1,14
+"ru","Russian",1,131
+"ru-Latn","Russian (Latin)",1,1
+"rw","Kinyarwanda",NA,NA
+"sk","Slovak",1,5
+"sl","Slovenian",1,5
+"sr","Serbian",1,4
+"sv","Swedish",1,30
+"sw","Swahili",1,1
+"ta","Tamil",1,2
+"te","Telugu",1,1
+"th","Thai",1,63
+"tr","Turkish",1,60
+"uk","Ukrainian",1,8
+"vi","Vietnamese",1,44
+"yue","Cantonese",1,2
+"yue-HK","Cantonese (Hong Kong)",1,3
+"zh","Chinese",1,25
+"zh-CN","Chinese (China)",1,10
+"zh-Hans","Chinese (Simplified)",1,94
+"zh-Hant","Chinese (Traditional)",1,68
+"zh-HK","Chinese (Hong Kong)",1,6
+"zh-SG","Chinese (Singapore)",1,1
+"zh-TW","Chinese (Taiwan)",1,10
+"zu","Zulu",1,1
