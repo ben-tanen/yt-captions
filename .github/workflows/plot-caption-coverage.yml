@@ -24,4 +24,4 @@ jobs:
         uses: ./.github/actions/commit
         with:
           message: new plot
-          what: img
+          what: img data/setup/language-crosswalk.csv
