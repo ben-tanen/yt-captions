@@ -21,11 +21,21 @@ jobs:
       - name: Build gcloud-service-keys
         run: printf '{"type":"service_account","project_id":"%s","private_key_id":"%s","private_key":"%s","client_email":"gh-action-scraper@%s.iam.gserviceaccount.com","client_id":"102457920936645852488","auth_uri":"https://accounts.google.com/o/oauth2/auth","token_uri":"https://oauth2.googleapis.com/token","auth_provider_x509_cert_url":"https://www.googleapis.com/oauth2/v1/certs","client_x509_cert_url":"https://www.googleapis.com/robot/v1/metadata/x509/gh-action-scraper%%40%s.iam.gserviceaccount.com"}\n' "${{ secrets.GCLOUD_PROJECT_ID }}" "${{ secrets.GCLOUD_PRIVATE_KEY_ID }}" "${{ secrets.GCLOUD_PRIVATE_KEY }}" "${{ secrets.GCLOUD_PROJECT_ID }}" "${{ secrets.GCLOUD_PROJECT_ID }}" > data/setup/gcloud-service-keys.json
       - name: Build api-keys
-        run: printf '{"yt-data-api-key":"%s"}\n' "${{ secrets.YOUTUBE_API_KEYS }}" > data/setup/api-keys.json
+        run: printf '{"yt-data-api-key":"%s"}\n' "${{ secrets.YOUTUBE_API_KEY }}" > data/setup/api-keys.json
       - name: Run Scraper Script
         run: pipenv run python code/query-captions-on-trending-videos.py
+      - name: Install R
+        uses: r-lib/actions/setup-r@v1
+        with:
+          r-version: 3.6.1
+      - name: Install Packages
+        run: |
+          install.packages(c("dplyr", "data.table", "tidyr", "ggplot2", "scales"))
+        shell: Rscript {0}
+      - name: Run Plotting Script
+        run: Rscript code/analyze-video-captions.R
       - name: Commit
         uses: ./.github/actions/commit
         with:
           message: new yt-trending scraped data
-          what: data/*.csv
+          what: data/*.csv img data/setup/language-crosswalk.csv
