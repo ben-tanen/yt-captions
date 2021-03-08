@@ -15,15 +15,17 @@ print(getwd())
 
 if (!grepl("yt-captions(/)?$", getwd())) setwd("~/Desktop/Projects/yt-captions/")
 
+path <- getwd()
+
 ### import data (raw data files + crosswalk for languages)
-setwd("data")
+setwd(paste0(path, "/data/caption_tracks"))
 files <- lapply(list.files(pattern = ".csv"), read.csv)
 
 # languages encoded by BCP-47 code, see below links for info:
 # https://www.mesalliance.org/wp-content/uploads/2019/07/Language-Metadata-Table-LMT-V2.0.pdf
 # http://linkedvocabs.org/lingvoj/languages/all.html
 # https://www.localeplanet.com/icu/fr-BE/index.html
-lang_cw <- read.csv("setup/language-crosswalk.csv")
+lang_cw <- read.csv(paste0(path, "/setup/language-crosswalk.csv"))
 
 ### stack video track data + merge on language
 vidtracks <- lapply(files, function(dt) {
@@ -48,7 +50,7 @@ lang_cw.new <- vidtracks %>%
     relocate(language, .after = code) %>%
     arrange(code)
 
-write.csv(lang_cw.new, "setup/language-crosswalk.csv", row.names = F)
+write.csv(lang_cw.new, paste0(path, "/setup/language-crosswalk.csv"), row.names = F)
 
 ### group by video to see which videos have caption tracks
 vids <- vidtracks %>%
@@ -108,5 +110,5 @@ ggplot(by_category_w_overall) +
           plot.subtitle = element_text(hjust = 0.5),
           plot.margin = margin(0.1, 0.25, 0.1, 0.1, "in"))
 
-ggsave("../img/pct_captions_by_category.png", device = "png", 
+ggsave(paste0(path, "/img/pct_captions_by_category.png"), device = "png", 
        width = 8, height = 5, unit = "in")

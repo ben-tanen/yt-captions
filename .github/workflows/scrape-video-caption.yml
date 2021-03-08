@@ -22,4 +22,4 @@ jobs:
         uses: ./.github/actions/commit
         with:
           message: new yt-caption track file
-          what: data/captions
+          what: data/caption_text

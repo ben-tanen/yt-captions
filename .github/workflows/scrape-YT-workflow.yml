@@ -38,4 +38,4 @@ jobs:
         uses: ./.github/actions/commit
         with:
           message: new yt-trending scraped data
-          what: data/*.csv img data/setup/language-crosswalk.csv
+          what: data/caption_tracks/*.csv img data/setup/language-crosswalk.csv
