@@ -1,0 +1,25 @@
+name: Scrape Caption Tracks from Video
+on:
+  push:
+
+jobs:
+  scrape-yt:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Install Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+      - name: Build Env
+        uses: ./.github/actions/build_py_env
+        with:
+          requirements: data/setup/caption-scraper-reqs.txt
+      - name: Run Caption Scraper Script
+        run: pipenv run python code/scrape-captions-selenium.py BvQ571eAOZE
+      - name: Commit
+        uses: ./.github/actions/commit
+        with:
+          message: new yt-caption track file
+          what: data/captions
