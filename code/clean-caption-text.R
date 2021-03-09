@@ -119,12 +119,9 @@ for (id in files.to_clean$id) {
   print("cleaning auto captions")
   dt.auto <- dt.base %>%
     filter(grepl("auto-gen", lang)) %>%
-    filter(row_number() < 5) %>%
     group_by(video_id) %>%
     mutate(prev_text = shift(text, n = 1, type = "lag"),
-           new_text = if_else(!is.na(prev_text), 
-                              addl_text_v(as.character(prev_text), as.character(text)), 
-                              as.character(text))) %>%
+           new_text = addl_text_v(as.character(prev_text), as.character(text))) %>%
     ungroup()
   print(paste0(nrow(dt.auto), " rows in dt.auto"))
   
