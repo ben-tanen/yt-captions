@@ -95,9 +95,13 @@ for (id in files.to_clean$id) {
     print("passed checks, attempting to calculate addl_text")
     
     t1_vec <- unlist(strsplit(t1, " "))
+    
+    print(t1_vec)
+    
     for (i in 1:length(t1_vec)) {
+      print(paste0("pattern ", i, ":"))
       pattern <- paste0("^\\Q", paste0(t1_vec[i:length(t1_vec)], collapse = " "), "\\E ")
-      print(paste0("pattern ", i, ": ", pattern))
+      print(pattern)
       if (grepl(pattern, t2)) {
         print("successfuly found pattern")
         return(gsub(pattern, "", t2))
