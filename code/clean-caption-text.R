@@ -31,7 +31,7 @@ print("file to clean:")
 print(files.to_clean)
 
 for (id in files.to_clean$id) {
-  print(id)
+  print(paste0("~~~ ", id, " ~~~"))
 
   # import base file
   print("importing base file")
@@ -80,8 +80,6 @@ for (id in files.to_clean$id) {
   # function to determine what additional text was added for each query of
   # auto-gen captions
   addl_text <- function(t1, t2) {
-    print(paste0(t1, " ~~~ ", t2))
-    
     if (is.na(t1) & is.na(t2)) {
       return("")
     } else if (is.na(t1)) {
@@ -92,22 +90,11 @@ for (id in files.to_clean$id) {
       return("")
     }
     
-    print("passed checks, attempting to calculate addl_text")
-    
-    print(t1)
-    
-    print(strsplit(t1, " "))
-    
     t1_vec <- unlist(strsplit(t1, " "))
     
-    print(t1_vec)
-    
     for (i in 1:length(t1_vec)) {
-      print(paste0("pattern ", i, ":"))
       pattern <- paste0("^\\Q", paste0(t1_vec[i:length(t1_vec)], collapse = " "), "\\E ")
-      print(pattern)
       if (grepl(pattern, t2)) {
-        print("successfuly found pattern")
         return(gsub(pattern, "", t2))
       }
     }
