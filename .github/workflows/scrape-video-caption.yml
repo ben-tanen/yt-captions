@@ -19,7 +19,7 @@ jobs:
         with:
           requirements: data/setup/caption-scraper-reqs.txt
       - name: Run Caption Text Scraper Script
-        run: pipenv run python code/scrape-captions-selenium.py --file=data/caption_text/videos_to_pull_caption_text.txt
+        run: pipenv run python code/scrape-captions-selenium.py --file=data/setup/videos_to_pull_caption_text.txt
       - name: Install R
         uses: r-lib/actions/setup-r@v1
         with:
