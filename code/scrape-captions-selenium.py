@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-import sys, time, re
+import os, sys, time, re
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.keys import Keys
@@ -210,17 +210,6 @@ try:
     print("Caption languages: %s" % cc_options_trim)
 except:
     exit_program("No captions available... exiting...")
-
-# for x in range(2):
-#     play_video()
-#     status = playing_status()
-#     while "Replay" not in status:
-#         print(status)
-#         status = playing_status()
-#     print(status)
-#     replay_video()
-    
-# sys.exit(1)
 
 # scrape captions from video into cc_data array
 cc_data = [ ]

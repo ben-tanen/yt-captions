@@ -25,7 +25,7 @@ files <- lapply(list.files(pattern = ".csv"), read.csv)
 # https://www.mesalliance.org/wp-content/uploads/2019/07/Language-Metadata-Table-LMT-V2.0.pdf
 # http://linkedvocabs.org/lingvoj/languages/all.html
 # https://www.localeplanet.com/icu/fr-BE/index.html
-lang_cw <- read.csv(paste0(path, "/setup/language-crosswalk.csv"))
+lang_cw <- read.csv(paste0(path, "/data/setup/language-crosswalk.csv"))
 
 ### stack video track data + merge on language
 vidtracks <- lapply(files, function(dt) {
