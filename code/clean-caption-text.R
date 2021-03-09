@@ -94,6 +94,10 @@ for (id in files.to_clean$id) {
     
     print("passed checks, attempting to calculate addl_text")
     
+    print(t1)
+    
+    print(strsplit(t1, " "))
+    
     t1_vec <- unlist(strsplit(t1, " "))
     
     print(t1_vec)
