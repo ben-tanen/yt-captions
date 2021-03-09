@@ -80,6 +80,7 @@ for (id in files.to_clean$id) {
   # function to determine what additional text was added for each query of
   # auto-gen captions
   addl_text <- function(t1, t2) {
+    print(paste0(t1, " ~~~ ", t2))
     if (is.na(t1) & is.na(t2)) {
       return("")
     } else if (is.na(t1)) {
@@ -92,7 +93,6 @@ for (id in files.to_clean$id) {
     
     t1_vec <- unlist(strsplit(t1, " "))
     for (i in 1:length(t1_vec)) {
-      # print(t1_vec[i:length(t1_vec)])
       pattern <- paste0("^", paste0(t1_vec[i:length(t1_vec)], collapse = " "), " ")
       if (grepl(pattern, t2)) {
         return(gsub(pattern, "", t2))
@@ -108,7 +108,7 @@ for (id in files.to_clean$id) {
     filter(grepl("auto-gen", lang)) %>%
     group_by(video_id) %>%
     mutate(prev_text = shift(text, n = 1, type = "lag"),
-           new_text = addl_text_v(prev_text, text)) %>%
+           new_text = if_else(!is.na(prev_text), addl_text_v(prev_text, text), text)) %>%
     ungroup()
   print(paste0(nrow(dt.auto), " rows in dt.auto"))
   
