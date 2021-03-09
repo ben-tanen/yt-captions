@@ -256,7 +256,7 @@ for video_id in video_ids:
 video_ids = [video_id for video_id in video_ids if "caption_text_%s.csv" % video_id not in os.listdir("data/caption_text/")]
 if len(video_ids) == 0:
     print("no video ids left to scrape (none given or all already scraped)")
-    sys.exit(1)
+    sys.exit()
 
 print("video id(s): %s" % video_ids)
 
