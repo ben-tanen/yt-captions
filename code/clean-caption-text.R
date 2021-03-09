@@ -34,6 +34,7 @@ for (id in files.to_clean$id) {
   print(id)
 
   # import base file
+  print("importing base file")
   dt.base.raw <- read.csv(paste0("caption_text_", id, ".csv")) %>%
     mutate(error_incident = grepl("ERROR IN PARSING", text),
            cont_error_incident = error_incident & shift(error_incident, n = 1, type = "lag"),
@@ -41,11 +42,12 @@ for (id in files.to_clean$id) {
            current_timecode = format(as.POSIXct(current_timecode, format = "%M:%S"), "%H:%M:%S"),
            duration_timecode = gsub("([0-9]|:)+ / ", "", timecode),
            duration_timecode = format(as.POSIXct(duration_timecode, format = "%M:%S"), "%H:%M:%S"))
+  print(paste0(nrow(dt.base.raw), " rows in dt.base.raw"))
   
   # report number of error incidents
   print(paste0(dt.base.raw %>% filter(error_incident) %>% nrow(), " error incidents... ",
                dt.base.raw %>% filter(cont_error_incident) %>% nrow(), " continued error incidents..."))
-  stopifnot(dt.base.raw %>% filter(cont_error_incident) < 1)
+  stopifnot(dt.base.raw %>% filter(cont_error_incident) %>% nrow() < 1)
   print("removing errors, assuming gaps will be fine for coverage")
   
   # determine most common duration to remove weird ad queries
