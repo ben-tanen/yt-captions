@@ -1,4 +1,4 @@
-name: Scrape YT Trending Captions Tracks
+name: Check for Caption Tracks on  YT Trending Video
 on:
   schedule:
     - cron: '0 12 * * *'
@@ -23,7 +23,7 @@ jobs:
       - name: Build api-keys
         run: printf '{"yt-data-api-key":"%s"}\n' "${{ secrets.YOUTUBE_API_KEY }}" > data/setup/api-keys.json
       - name: Run Scraper Script
-        run: pipenv run python code/query-captions-on-trending-videos.py
+        run: pipenv run python code/check-for-captions-on-trending-videos.py
       - name: Install R
         uses: r-lib/actions/setup-r@v1
         with:
@@ -33,7 +33,7 @@ jobs:
           install.packages(c("dplyr", "data.table", "tidyr", "ggplot2", "scales"))
         shell: Rscript {0}
       - name: Run Plotting Script
-        run: Rscript code/analyze-video-captions.R
+        run: Rscript code/analyze-trending-video-captions.R
       - name: Commit
         uses: ./.github/actions/commit
         with:

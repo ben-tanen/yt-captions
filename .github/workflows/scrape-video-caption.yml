@@ -29,7 +29,7 @@ jobs:
           install.packages(c("dplyr", "data.table", "fuzzyjoin"))
         shell: Rscript {0}
       - name: Run Caption Text Cleaner Script
-        run: Rscript code/clean-captions-text.R
+        run: Rscript code/clean-caption-text.R
       - name: Commit
         uses: ./.github/actions/commit
         with:
