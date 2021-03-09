@@ -50,7 +50,7 @@ lang_cw.new <- vidtracks %>%
     relocate(language, .after = code) %>%
     arrange(code)
 
-write.csv(lang_cw.new, paste0(path, "/setup/language-crosswalk.csv"), row.names = F)
+write.csv(lang_cw.new, paste0(path, "/data/setup/language-crosswalk.csv"), row.names = F)
 
 ### group by video to see which videos have caption tracks
 vids <- vidtracks %>%
