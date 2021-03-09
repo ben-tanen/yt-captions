@@ -17,7 +17,6 @@ path <- getwd()
 
 ### determine which caption_text files to clean
 setwd(paste0(path, "/data/caption_text/"))
-files.all <- list.files(pattern = ".csv")
 files.to_clean <- tibble(file = list.files(pattern = "caption_text_[A-z0-9]{11}.csv")) %>%
   mutate(id = gsub("caption_text_", "", gsub(".csv", "", file)),
          base = 1) %>%
@@ -27,6 +26,9 @@ files.to_clean <- tibble(file = list.files(pattern = "caption_text_[A-z0-9]{11}.
             by = "id", suffix = c(".base", ".clean")) %>%
   select(id, base, clean) %>%
   filter(is.na(clean))
+
+print("file to clean:")
+print(files.to_clean)
 
 for (id in files.to_clean$id) {
   print(id)
@@ -105,7 +107,8 @@ for (id in files.to_clean$id) {
     ungroup()
   
   if (nrow(dt.auto) == 0) {
-    dt.auto <- tibble(video_id = id, new_text = "", timecode = "")
+    print("no auto-generated captions, skipping...")
+    next
   }
     
   # combine caption text together (auto + user)
@@ -126,9 +129,9 @@ for (id in files.to_clean$id) {
     arrange(video_id, min_timecode, max_timecode)
   
   # plot it (for visual check)
-  dt.join %>% 
-    count(min = substr(min_timecode, 1, 5)) %>% 
-    ggplot(aes(x = min, y = n)) + geom_col() + labs(title = id)
+  # dt.join %>% 
+  #   count(min = substr(min_timecode, 1, 5)) %>% 
+  #   ggplot(aes(x = min, y = n)) + geom_col() + labs(title = id)
   
   # save the data
   write.csv(dt.join, paste0("caption_text_", id, "_clean.csv"), row.names = F)

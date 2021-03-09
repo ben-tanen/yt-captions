@@ -18,10 +18,16 @@ jobs:
         uses: ./.github/actions/build_py_env
         with:
           requirements: data/setup/caption-scraper-reqs.txt
-      - name: Run Caption Scraper Script
+      - name: Run Caption Text Scraper Script
         run: pipenv run python code/scrape-captions-selenium.py --file=data/caption_text/videos_to_pull_caption_text.txt
+      - name: Clean Caption Text
+        run: |
+          install.packages(c("dplyr", "data.table", "fuzzyjoin"))
+        shell: Rscript {0}
+      - name: Run Caption Text Cleaner Script
+        run: Rscript code/clean-captions-text.R
       - name: Commit
         uses: ./.github/actions/commit
         with:
-          message: new yt-caption track file
+          message: new yt caption text file(s)
           what: data/caption_text
