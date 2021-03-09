@@ -1,11 +1,11 @@
-name: Scrape YT Trending Captions
+name: Scrape YT Trending Captions Tracks
 on:
   schedule:
     - cron: '0 12 * * *'
   push:
 
 jobs:
-  scrape-yt:
+  scrape-yt-tracks:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout

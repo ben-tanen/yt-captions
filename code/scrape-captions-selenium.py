@@ -2,10 +2,12 @@
 # -*- coding: utf-8 -*-
 
 import os, sys, time, re
-from selenium import webdriver
-from webdriver_manager.chrome import ChromeDriverManager
-from selenium.webdriver.common.keys import Keys
 import pandas as pd
+
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.common.keys import Keys
+from webdriver_manager.chrome import ChromeDriverManager
 
 #=========================#
 # DEFINE HELPER FUNCTIONS #
@@ -141,7 +143,9 @@ elif len(sys.argv[1]) != 11:
 video_id = sys.argv[1]
 
 # start headless browser
-driver = webdriver.Chrome(ChromeDriverManager().install())
+chrome_options = Options()
+chrome_options.add_argument("--headless")
+driver = webdriver.Chrome(ChromeDriverManager().install(), options = chrome_options)
 
 #===================#
 # NAVIGATE TO VIDEO #

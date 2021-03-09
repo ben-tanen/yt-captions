@@ -1,9 +1,9 @@
-name: Scrape Caption Tracks from Video
+name: Scrape Caption Text from Videos
 on:
   push:
 
 jobs:
-  scrape-yt:
+  scrape-caption-text:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
