@@ -1,5 +1,7 @@
 name: Scrape Caption Text from Videos
 on:
+  schedule:
+      - cron: '24 16 * * *'
   push:
 
 jobs:
@@ -17,7 +19,7 @@ jobs:
         with:
           requirements: data/setup/caption-scraper-reqs.txt
       - name: Run Caption Scraper Script
-        run: pipenv run python code/scrape-captions-selenium.py BvQ571eAOZE
+        run: pipenv run python code/scrape-captions-selenium.py --file=data/caption_text/videos_to_pull_caption_text.txt
       - name: Commit
         uses: ./.github/actions/commit
         with:
