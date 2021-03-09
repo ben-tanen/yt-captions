@@ -97,8 +97,12 @@ except:
 vid_df = pd.DataFrame(trendingVids)
 
 # get caption information for trending videos
-captions = getCaptions(videos = trendingVids)
-cap_df = pd.DataFrame(captions)
+try:
+    captions = getCaptions(videos = trendingVids)
+    cap_df = pd.DataFrame(captions)
+except:
+    print("%s: query failed [likely quota issue]" % (datetime.now().strftime("%Y-%m-%d %I:%M %p")))
+    sys.exit()
 
 # get video cateogries
 cat_data = youtube.videoCategories().list(part = 'snippet', regionCode = 'us').execute()
