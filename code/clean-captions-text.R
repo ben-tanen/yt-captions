@@ -61,6 +61,7 @@ for (id in files.to_clean$id) {
     inner_join(durations, by = "duration_timecode")
   
   # group captions together for user captions
+  print("cleaning user captions")
   dt.user <- dt.base %>%
     filter(!grepl("auto-gen", lang)) %>%
     group_by(video_id, lang) %>%
@@ -72,6 +73,7 @@ for (id in files.to_clean$id) {
               max_timecode = max(current_timecode),
               .groups = "drop") %>%
     arrange(video_id, lang, text_gp)
+  print(paste0(nrow(dt.user), " rows in dt.user"))
   
   # function to determine what additional text was added for each query of
   # auto-gen captions
@@ -99,12 +101,14 @@ for (id in files.to_clean$id) {
   addl_text_v <- Vectorize(addl_text)
   
   # determine unique new segments of text for each new auto-gen caption query
+  print("cleaning user captions")
   dt.auto <- dt.base %>%
     filter(grepl("auto-gen", lang)) %>%
     group_by(video_id) %>%
     mutate(prev_text = shift(text, n = 1, type = "lag"),
            new_text = addl_text_v(prev_text, text)) %>%
     ungroup()
+  print(paste0(nrow(dt.auto), " rows in dt.auto"))
   
   if (nrow(dt.auto) == 0) {
     print("no auto-generated captions, skipping...")
@@ -112,6 +116,7 @@ for (id in files.to_clean$id) {
   }
     
   # combine caption text together (auto + user)
+  print("joining dt.user and dt.auto")
   dt.join <- dt.user %>%
     fuzzy_left_join(dt.auto %>%
                       select(video_id, text = new_text, timecode = current_timecode),
@@ -127,6 +132,7 @@ for (id in files.to_clean$id) {
     group_by(video_id, min_timecode, max_timecode, text.user) %>%
     summarise(text.auto = gsub("(^ +| +$)", "", gsub(" {2,}", " ", paste0(text.auto, collapse = " "))), .groups = "drop") %>%
     arrange(video_id, min_timecode, max_timecode)
+  print(paste0(nrow(dt.join), " rows in dt.join"))
   
   # plot it (for visual check)
   # dt.join %>% 
