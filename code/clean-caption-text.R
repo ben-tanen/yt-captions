@@ -103,7 +103,7 @@ for (id in files.to_clean$id) {
   addl_text_v <- Vectorize(addl_text)
   
   # determine unique new segments of text for each new auto-gen caption query
-  print("cleaning user captions")
+  print("cleaning auto captions")
   dt.auto <- dt.base %>%
     filter(grepl("auto-gen", lang)) %>%
     group_by(video_id) %>%
