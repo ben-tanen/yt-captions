@@ -81,6 +81,7 @@ for (id in files.to_clean$id) {
   # auto-gen captions
   addl_text <- function(t1, t2) {
     print(paste0(t1, " ~~~ ", t2))
+    
     if (is.na(t1) & is.na(t2)) {
       return("")
     } else if (is.na(t1)) {
@@ -91,10 +92,14 @@ for (id in files.to_clean$id) {
       return("")
     }
     
+    print("passed checks, attempting to calculate addl_text")
+    
     t1_vec <- unlist(strsplit(t1, " "))
     for (i in 1:length(t1_vec)) {
-      pattern <- paste0("^", paste0(t1_vec[i:length(t1_vec)], collapse = " "), " ")
+      pattern <- paste0("^\\Q", paste0(t1_vec[i:length(t1_vec)], collapse = " "), "\\E ")
+      print(paste0("pattern ", i, ": ", pattern))
       if (grepl(pattern, t2)) {
+        print("successfuly found pattern")
         return(gsub(pattern, "", t2))
       }
     }
@@ -106,6 +111,7 @@ for (id in files.to_clean$id) {
   print("cleaning auto captions")
   dt.auto <- dt.base %>%
     filter(grepl("auto-gen", lang)) %>%
+    filter(row_number() < 5) %>%
     group_by(video_id) %>%
     mutate(prev_text = shift(text, n = 1, type = "lag"),
            new_text = if_else(!is.na(prev_text), addl_text_v(prev_text, text), text)) %>%
