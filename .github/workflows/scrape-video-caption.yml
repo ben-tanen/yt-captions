@@ -28,7 +28,7 @@ jobs:
         uses: actions/cache@v1
         with:
           path: ${{ env.R_LIBS_USER }}
-          key: r-${{ hashFiles('DESCRIPTION') }}
+          key: r-${{ env.cache-name }}
       - name: Install Packages
         run: |
           install.packages(c("dplyr", "data.table", "fuzzyjoin"))
