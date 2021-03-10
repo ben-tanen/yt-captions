@@ -116,6 +116,6 @@ cat_df = pd.DataFrame([{
 all_df = vid_df.merge(cap_df, how = 'left', on = 'videoId').merge(cat_df, how = 'left', left_on = 'videoCategoryId', right_on = 'id')
 
 # save to excel
-all_df.to_csv("data/%s_trending-vid-captions.csv" % datetime.now().strftime("%Y-%m-%d_%H-%M-%S"), index = False)
+all_df.to_csv("data/caption_tracks/%s_trending-vid-captions.csv" % datetime.now().strftime("%Y-%m-%d_%H-%M-%S"), index = False)
 
 print("%s: saved results for day (%d videos)" % (datetime.now().strftime("%Y-%m-%d %I:%M %p"), len(trendingVids)))
