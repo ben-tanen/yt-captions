@@ -32,7 +32,7 @@ jobs:
         uses: actions/cache@v1
         with:
           path: ${{ env.R_LIBS_USER }}
-          key: r-${{ env.cache-name }}
+          key: r-cache-analyzer
       - name: Install Packages
         run: |
           install.packages(c("dplyr", "data.table", "tidyr", "ggplot2", "scales"))
