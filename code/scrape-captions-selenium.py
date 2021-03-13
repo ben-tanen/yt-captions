@@ -23,11 +23,6 @@ def parse_argv():
     else:
         return {}
 
-def exit_program(msg):
-    print(msg)
-    driver.quit()
-    sys.exit(1)
-
 def toggle_cc_option():
     cc_btn = driver.find_element_by_xpath("//button[contains(@class, 'ytp-subtitles-button')]")
     cc_btn.click()
@@ -184,7 +179,8 @@ def scrape_video_caption_text(video_id):
         cc_options_trim = [option for option in cc_options if "English" in option]
         print("Caption languages: %s" % cc_options_trim)
     except:
-        exit_program("No captions available... exiting...")
+        print("No captions available... exiting...")
+        return
 
     # scrape captions from video into cc_data array
     cc_data = [ ]
