@@ -24,6 +24,11 @@ jobs:
         run: printf '{"yt-data-api-key":"%s"}\n' "${{ secrets.YOUTUBE_API_KEY }}" > data/setup/api-keys.json
       - name: Run Scraper Script
         run: pipenv run python code/check-for-captions-on-trending-videos.py
+      - name: Commit 1
+        uses: ./.github/actions/commit
+        with:
+          message: new yt-trending scraped data
+          what: data/caption_tracks/*.csv img data/setup/language-crosswalk.csv
       - name: Install R
         uses: r-lib/actions/setup-r@v1
         with:
@@ -39,8 +44,8 @@ jobs:
         shell: Rscript {0}
       - name: Run Plotting Script
         run: Rscript code/analyze-trending-video-captions.R
-      - name: Commit
+      - name: Commit 2
         uses: ./.github/actions/commit
         with:
-          message: new yt-trending scraped data
+          message: new yt-trending plot + crosswalk
           what: data/caption_tracks/*.csv img data/setup/language-crosswalk.csv

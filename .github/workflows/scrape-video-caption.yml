@@ -1,7 +1,5 @@
 name: Scrape Caption Text from Videos
 on:
-  schedule:
-      - cron: '24 16 * * *'
   push:
 
 jobs:
