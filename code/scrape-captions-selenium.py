@@ -254,6 +254,8 @@ if len(video_ids) == 0:
     print("no video ids left to scrape (none given or all already scraped)")
     sys.exit()
 
+# limit to first 4 unscraped videos (so not to run over time on gh-actions)
+video_ids = video_ids[:4]
 print("video id(s): %s" % video_ids)
 
 # start headless browser
