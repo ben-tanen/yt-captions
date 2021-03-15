@@ -8,6 +8,7 @@ rm(list = ls())
 library(tidyverse)
 library(stringdist)
 library(ggplot2)
+library(ggbeeswarm)
 
 print(getwd())
 
@@ -44,25 +45,29 @@ dt$sim_wout_punct <- unlist(sim.wout_punct)
 quantile(dt$sim_overall)
 print(paste0("midpoint: ", (max(dt$sim_overall) + min(dt$sim_overall)) / 2))
 
+quantile(dt$sim_wout_punct)
+print(paste0("midpoint: ", (max(dt$sim_wout_punct) + min(dt$sim_wout_punct)) / 2))
+
 # bucket scores
 dt.w_bucket <- dt %>%
   mutate(bucket_overall = cut(sim_overall,
-                              breaks = seq(min(sim_overall), max(sim_overall),
-                                           (max(sim_overall) - min(sim_overall)) / 10),
-                              labels = LETTERS[1:10],
+                              breaks = seq(0, 1, 0.1),
                               include.lowest = T),
          bucket_wout_punc = cut(sim_wout_punct,
-                                breaks = seq(min(sim_wout_punct), max(sim_wout_punct),
-                                             (max(sim_wout_punct) - min(sim_wout_punct)) / 10),
-                                labels = LETTERS[1:10],
+                                breaks = seq(0, 1, 0.1),
                                 include.lowest = T))
 
 # plot it
 ggplot(dt.w_bucket %>% 
          count(bucket = bucket_overall) %>%
-         full_join(tibble(bucket = LETTERS[1:10]), by = "bucket") %>%
          arrange(bucket)) +
   geom_col(aes(x = bucket, y = n))
+
+ggplot(dt) +
+  geom_beeswarm(aes(x = 0, y = sim_overall), cex = 2, size = 2) +
+  scale_x_continuous(name = NULL, limits = c(-0.1, 0.1)) + 
+  scale_y_continuous(name = "Overall caption similarity", limits = c(0, 1)) +
+  coord_flip()
 
 # dt.w_matches <- dt.raw %>%
 #   mutate(exact_match = tolower(text.user) == tolower(text.auto),

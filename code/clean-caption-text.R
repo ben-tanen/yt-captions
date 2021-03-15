@@ -20,7 +20,7 @@ setwd(paste0(path, "/data/caption_text/"))
 files.to_clean <- tibble(file = list.files(pattern = "caption_text_(_|-|[A-z]|[0-9]){11}.csv")) %>%
   mutate(id = gsub("caption_text_", "", gsub(".csv", "", file)),
          base = 1) %>%
-  left_join(tibble(file = list.files(pattern = "caption_text_[A-z0-9]{11}_clean.csv")) %>%
+  left_join(tibble(file = list.files(pattern = "caption_text_(_|-|[A-z]|[0-9]){11}_clean.csv")) %>%
               mutate(id = gsub("caption_text_", "", gsub("_clean.csv", "", file)),
                      clean = 1),
             by = "id", suffix = c(".base", ".clean")) %>%
@@ -47,7 +47,10 @@ for (id in files.to_clean$id) {
   # report number of error incidents
   print(paste0(dt.base.raw %>% filter(error_incident) %>% nrow(), " error incidents... ",
                dt.base.raw %>% filter(cont_error_incident) %>% nrow(), " continued error incidents..."))
-  stopifnot(dt.base.raw %>% filter(cont_error_incident) %>% nrow() < 1)
+  if (dt.base.raw %>% filter(cont_error_incident) %>% nrow() >= 1) {
+    print("multiple back-to-back errors occurred, skipping...")
+    next
+  }
   print("removing errors, assuming gaps will be fine for coverage")
   
   # determine most common duration to remove weird ad queries
@@ -76,6 +79,11 @@ for (id in files.to_clean$id) {
               .groups = "drop") %>%
     arrange(video_id, lang, text_gp)
   print(paste0(nrow(dt.user), " rows in dt.user"))
+  
+  if (nrow(dt.user) == 0) {
+    print("no user-generated captions, skipping...")
+    next
+  }
   
   # function to determine what additional text was added for each query of
   # auto-gen captions
