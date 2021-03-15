@@ -17,7 +17,7 @@ path <- getwd()
 
 ### determine which caption_text files to clean
 setwd(paste0(path, "/data/caption_text/"))
-files.to_clean <- tibble(file = list.files(pattern = "caption_text_[A-z0-9]{11}.csv")) %>%
+files.to_clean <- tibble(file = list.files(pattern = "caption_text_(_|-|[A-z]|[0-9]){11}.csv")) %>%
   mutate(id = gsub("caption_text_", "", gsub(".csv", "", file)),
          base = 1) %>%
   left_join(tibble(file = list.files(pattern = "caption_text_[A-z0-9]{11}_clean.csv")) %>%
