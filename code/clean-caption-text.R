@@ -69,6 +69,9 @@ for (id in files.to_clean$id) {
   print("cleaning user captions")
   dt.user <- dt.base %>%
     filter(!grepl("auto-gen", lang)) %>%
+    mutate(row_number = row_number()) %>%
+    arrange(current_timecode, row_number) %>%
+    select(-row_number) %>%
     group_by(video_id, lang) %>%
     mutate(new_text = if_else(row_number() == 1, T, text != shift(text, n = 1, type = "lag")),
            text_gp = cumsum(new_text)) %>%
