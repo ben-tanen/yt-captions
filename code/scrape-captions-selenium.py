@@ -228,7 +228,7 @@ if 'file' in parsed_args:
     try:
         with open(parsed_args["file"], "r") as fp:
             lines_orig = fp.readlines()
-            video_ids = [l.replace("\n", "") for l in lines_orig]
+            video_ids = [l.replace("\n", "").split("|")[0] for l in lines_orig]
     except:
         print("failed to parse input file")
         sys.exit(1)
