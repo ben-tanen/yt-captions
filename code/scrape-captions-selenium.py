@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import os, sys, time, re, traceback
+from datetime import datetime
 import pandas as pd
 
 from selenium import webdriver
@@ -182,6 +183,9 @@ def scrape_video_caption_text(video_id):
         print("No captions available... exiting...")
         return
 
+    # start timer (only run for 2 hours max)
+    start_time = datetime.now()
+
     # scrape captions from video into cc_data array
     cc_data = [ ]
     for lang in cc_options_trim:
@@ -204,6 +208,9 @@ def scrape_video_caption_text(video_id):
                     "timecode": get_current_timecode()["full"]}
             print(cc_obj)
             cc_data.append(cc_obj)
+            if (datetime.now() - start_time).seconds > (60 * 60 * 2):
+                print("Video caption scraping taking longer than 2 hours... quitting...")
+                return
         print("replaying video")
         replay_video()
 
