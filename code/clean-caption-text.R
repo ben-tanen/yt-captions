@@ -56,14 +56,23 @@ for (id in files.to_clean$id) {
   # determine most common duration to remove weird ad queries
   durations <- dt.base.raw %>%
     count(duration_timecode, sort = T) %>%
-    mutate(rank = row_number()) %>%
-    filter(rank == 1)
+    mutate(rank = row_number(),
+           pct = n / sum(n)) %>%
+    arrange(rank)
+  
+  if (durations[1,]$pct <= .80) {
+    print("main duration occurs less than 80% of time - should explore others durations")
+    next
+  } else if (durations[1,]$duration_timecode != dt.base.raw[1,]$duration_timecode) {
+    print("main duration does not match with first duration") 
+    next
+  }
   
   # remove error incidents as long as no continuious ones
   # and segments of ads
   dt.base <- dt.base.raw %>%
     filter(!error_incident) %>%
-    inner_join(durations, by = "duration_timecode")
+    inner_join(durations %>% filter(rank == 1), by = "duration_timecode")
   
   # group captions together for user captions
   print("cleaning user captions")
