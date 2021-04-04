@@ -235,7 +235,9 @@ if 'file' in parsed_args:
     try:
         with open(parsed_args["file"], "r") as fp:
             lines_orig = fp.readlines()
-            video_ids = [l.replace("\n", "").split("|")[0] for l in lines_orig]
+            video_ids = [{"video_id": l.replace("\n", "").split("|")[0],
+                          "length": l.replace("\n", "").split("|")[1]} for l in lines_orig]
+            video_ids = [el["video_id"] for el in sorted(video_ids, key = lambda i: i["length"])]
     except:
         print("failed to parse input file")
         sys.exit(1)
