@@ -183,9 +183,6 @@ def scrape_video_caption_text(video_id):
         print("No captions available... exiting...")
         return
 
-    # start timer (only run for 2 hours max)
-    start_time = datetime.now()
-
     # scrape captions from video into cc_data array
     cc_data = [ ]
     for lang in cc_options_trim:
@@ -208,8 +205,8 @@ def scrape_video_caption_text(video_id):
                     "timecode": get_current_timecode()["full"]}
             print(cc_obj)
             cc_data.append(cc_obj)
-            if (datetime.now() - start_time).seconds > (60 * 60 * 2):
-                print("Video caption scraping taking longer than 2 hours... quitting...")
+            if (datetime.now() - start_time).seconds > (60 * 60 * 5.5):
+                print("Video caption scraping taking longer than 5.5 hours... quitting...")
                 return
         print("replaying video")
         replay_video()
@@ -264,13 +261,16 @@ if len(video_ids) == 0:
     sys.exit()
 
 # limit to first 4 unscraped videos (so not to run over time on gh-actions)
-video_ids = video_ids[:4]
+video_ids = video_ids[:5]
 print("video id(s): %s" % video_ids)
 
 # start headless browser
 chrome_options = Options()
 chrome_options.add_argument("--headless")
 driver = webdriver.Chrome(ChromeDriverManager().install(), options = chrome_options)
+
+# start timer (only run for 5.5 hours max)
+start_time = datetime.now()
 
 # scrape caption text for each video id
 for video_id in video_ids:
