@@ -1,43 +1,43 @@
 "code","language","from_data","n_vid"
-"ar","Arabic",1,72
+"ar","Arabic",1,73
 "cs","Czech",1,32
-"da","Danish",1,30
-"de","German",1,133
+"da","Danish",1,31
+"de","German",1,135
 "de-DE","German (Germany)",1,37
-"en","English",1,5839
+"en","English",1,5868
 "en-CA","English (Canada)",1,2
 "en-GB","English (United Kingdom)",1,29
-"en-US","English (United States)",1,195
-"es","Spanish",1,478
+"en-US","English (United States)",1,197
+"es","Spanish",1,481
 "es-419","Spanish (Latin America)",1,78
 "es-ES","Spanish (Spain)",1,50
-"es-MX","Spanish (Mexico)",1,46
+"es-MX","Spanish (Mexico)",1,47
 "fa-IR","Persian (Iran)",1,8
-"fi","Finnish",1,46
-"fr","French",1,192
+"fi","Finnish",1,47
+"fr","French",1,194
 "fr-FR","French (France)",1,27
 "hi","Hindi",1,37
 "id","Indonesian",1,83
-"it","Italian",1,129
-"ja","Japanese",1,191
-"ko","Korean",1,236
+"it","Italian",1,130
+"ja","Japanese",1,193
+"ko","Korean",1,237
 "ms","Malay",1,17
-"nl","Dutch",1,128
-"nl-NL","Dutch (Netherands)",1,24
-"no","Norwegian",1,31
-"pl","Polish",1,91
+"nl","Dutch",1,129
+"nl-NL","Dutch (Netherands)",1,25
+"no","Norwegian",1,32
+"pl","Polish",1,92
 "pt","Portugese",1,151
-"pt-BR","Portugese (Brazil)",1,118
-"pt-PT","Portugese (Portugal)",1,23
-"ru","Russian",1,170
-"sv","Swedish",1,34
+"pt-BR","Portugese (Brazil)",1,119
+"pt-PT","Portugese (Portugal)",1,24
+"ru","Russian",1,171
+"sv","Swedish",1,35
 "th","Thai",1,84
 "tr","Turkish",1,75
 "vi","Vietnamese",1,58
 "yue-HK","Cantonese (Hong Kong)",1,3
 "zh-CN","Chinese (China)",1,12
-"zh-Hans","Chinese (Simplified)",1,120
-"zh-Hant","Chinese (Traditional)",1,92
+"zh-Hans","Chinese (Simplified)",1,121
+"zh-Hant","Chinese (Traditional)",1,93
 "zh-HK","Chinese (Hong Kong)",1,7
 "zh-SG","Chinese (Singapore)",1,1
 "zh-TW","Chinese (Taiwan)",1,14
@@ -73,7 +73,7 @@
 "af","Afrikaans",1,1
 "eo","Esperanto",1,4
 "id-ID","Indonesian (Indonesia)",1,1
-"es-US","Spanish (United States)",1,3
+"es-US","Spanish (United States)",1,4
 "fr-CA","French (Canada)",1,9
 "et","Estonian",1,2
 "fa-AF","Persian (Afghanistan)",1,1
