@@ -48,4 +48,7 @@ jobs:
         uses: ./.github/actions/commit
         with:
           message: new yt-trending plot + crosswalk
-          what: data/caption_tracks/*.csv img data/setup/language-crosswalk.csv
+          what: img 
+                data/caption_tracks/*.csv
+                data/setup/language-crosswalk.csv 
+                data/setup/*.txt
