@@ -21,25 +21,36 @@ dt <- tibble(file = list.files(paste0(path, "/data/caption_text/"), pattern = "_
   mutate(id = gsub("_clean.csv", "", gsub("caption_text_", "", file)))
 
 # calculate overall similarity
-sim.overall <- lapply(dt$id, function(id) {
+dt$sim_overall <- NA
+for (i in 301:nrow(dt)) {
+  id <- dt$id[i]
+  print(id)
   raw <- read.csv(paste0(path, "/data/caption_text/caption_text_", id, "_clean.csv")) %>%
     filter(text.user != "" | text.auto != "")
   score <- stringsim(tolower(paste0(raw$text.user, collapse = " ")), 
                      tolower(paste0(raw$text.auto, collapse = " ")))
-  return(score)
-}) %>% set_names(dt$id)
+  dt$sim_overall[i] <- score
+}
 
-sim.wout_punct <- lapply(dt$id, function(id) {
-  raw <- read.csv(paste0(path, "/data/caption_text/caption_text_", id, "_clean.csv")) %>%
-    filter(text.user != "" | text.auto != "")
-  score <- stringsim(gsub("[[:punct:]]", "", tolower(paste0(raw$text.user, collapse = " "))), 
-                     gsub("[[:punct:]]", "", tolower(paste0(raw$text.auto, collapse = " "))))
-  return(score)
-}) %>% set_names(dt$id)
+# sim.overall <- lapply(dt$id, function(id) {
+#   raw <- read.csv(paste0(path, "/data/caption_text/caption_text_", id, "_clean.csv")) %>%
+#     filter(text.user != "" | text.auto != "")
+#   score <- stringsim(tolower(paste0(raw$text.user, collapse = " ")), 
+#                      tolower(paste0(raw$text.auto, collapse = " ")))
+#   return(score)
+# }) %>% set_names(dt$id)
+
+# sim.wout_punct <- lapply(dt$id, function(id) {
+#   raw <- read.csv(paste0(path, "/data/caption_text/caption_text_", id, "_clean.csv")) %>%
+#     filter(text.user != "" | text.auto != "")
+#   score <- stringsim(gsub("[[:punct:]]", "", tolower(paste0(raw$text.user, collapse = " "))), 
+#                      gsub("[[:punct:]]", "", tolower(paste0(raw$text.auto, collapse = " "))))
+#   return(score)
+# }) %>% set_names(dt$id)
 
 # add scores to dt
-dt$sim_overall <- unlist(sim.overall)
-dt$sim_wout_punct <- unlist(sim.wout_punct)
+# dt$sim_overall <- unlist(sim.overall)
+# dt$sim_wout_punct <- unlist(sim.wout_punct)
 
 # look at quick summary stats
 quantile(dt$sim_overall)
