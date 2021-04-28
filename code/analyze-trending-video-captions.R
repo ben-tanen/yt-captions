@@ -65,7 +65,7 @@ vids <- vidtracks %>%
                                    asr == 0 & nonasr == 0 ~ "neither"))
 
 ### identify new videos to consider adding to to-pull list
-vids_to_pull <- read.table(paste0(path, "/data/setup/videos_to_pull_caption_text.new.txt"), 
+vids_to_pull <- read.table(paste0(path, "/data/setup/videos_to_pull_caption_text.txt"), 
                            sep = "\t", quote = "\"") %>%
     select(videoId = V1)
 vids_not_to_pull <- read.table(paste0(path, "/data/setup/videos_not_to_pull_caption_text.txt"), 
