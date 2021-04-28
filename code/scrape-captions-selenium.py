@@ -183,6 +183,12 @@ def scrape_video_caption_text(video_id):
         print("No captions available... exiting...")
         return
 
+    # quit out of function here if only looking for caption languages
+    if 'capcheck' in parsed_args:
+        print("Only checking for caption languages so stopping here...")
+        print("Video has length of: %s" % get_current_timecode()["duration"])
+        return()
+
     # scrape captions from video into cc_data array
     cc_data = [ ]
     for lang in cc_options_trim:
@@ -232,9 +238,12 @@ if 'file' in parsed_args:
     try:
         with open(parsed_args["file"], "r") as fp:
             lines_orig = fp.readlines()
-            video_ids = [{"video_id": l.replace("\n", "").split("|")[0],
-                          "length": l.replace("\n", "").split("|")[1]} for l in lines_orig]
-            video_ids = [el["video_id"] for el in sorted(video_ids, key = lambda i: i["length"])]
+            if 'capcheck' not in parsed_args:
+                video_ids = [{"video_id": l.replace("\n", "").split("\t")[0],
+                            "length": l.replace("\n", "").split("\t")[1]} for l in lines_orig]
+                video_ids = [el["video_id"] for el in sorted(video_ids, key = lambda i: i["length"])]
+            else:
+                video_ids = [l.replace("\n", "").split("\t")[0] for l in lines_orig]
     except:
         print("failed to parse input file")
         sys.exit(1)
@@ -261,7 +270,8 @@ if len(video_ids) == 0:
     sys.exit()
 
 # limit to first 4 unscraped videos (so not to run over time on gh-actions)
-video_ids = video_ids[:5]
+if 'capcheck' not in parsed_args:
+    video_ids = video_ids[:5]
 print("video id(s): %s" % video_ids)
 
 # start headless browser
