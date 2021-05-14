@@ -1,14 +1,14 @@
 "code","language","from_data","n_vid"
-"ar","Arabic",1,79
-"cs","Czech",1,35
+"ar","Arabic",1,80
+"cs","Czech",1,36
 "da","Danish",1,35
 "de","German",1,148
 "de-DE","German (Germany)",1,39
-"en","English",1,6368
+"en","English",1,6386
 "en-CA","English (Canada)",1,2
 "en-GB","English (United Kingdom)",1,32
 "en-US","English (United States)",1,215
-"es","Spanish",1,523
+"es","Spanish",1,526
 "es-419","Spanish (Latin America)",1,84
 "es-ES","Spanish (Spain)",1,58
 "es-MX","Spanish (Mexico)",1,53
@@ -20,16 +20,16 @@
 "id","Indonesian",1,87
 "it","Italian",1,145
 "ja","Japanese",1,204
-"ko","Korean",1,258
+"ko","Korean",1,259
 "ms","Malay",1,18
-"nl","Dutch",1,141
+"nl","Dutch",1,143
 "nl-NL","Dutch (Netherands)",1,28
 "no","Norwegian",1,35
 "pl","Polish",1,102
 "pt","Portugese",1,162
 "pt-BR","Portugese (Brazil)",1,130
 "pt-PT","Portugese (Portugal)",1,27
-"ru","Russian",1,187
+"ru","Russian",1,188
 "sv","Swedish",1,39
 "th","Thai",1,89
 "tr","Turkish",1,83
@@ -87,7 +87,7 @@
 "kn","Kannada",1,1
 "ml","Malayalam",1,1
 "mr","Marathi",1,1
-"pa","Panjabi",1,1
+"pa","Panjabi",1,2
 "sw","Swahili",1,1
 "te","Telugu",1,1
 "fr-BE","French (Belgium)",1,1
