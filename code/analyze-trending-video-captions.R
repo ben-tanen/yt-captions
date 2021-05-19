@@ -74,7 +74,7 @@ vids_not_to_pull <- read.table(paste0(path, "/data/setup/videos_not_to_pull_capt
 vids %>%
     filter(captionType == "both") %>%
     select(videoId) %>%
-    inner_join(vidtracks) %>%
+    inner_join(vidtracks, by = "videoId") %>%
     filter(grepl("en", captionLang)) %>%
     anti_join(vids_to_pull, by = "videoId") %>%
     anti_join(vids_not_to_pull, by = "videoId") %>%
@@ -85,6 +85,7 @@ vids %>%
     select(videoId, videoTitle) %>%
     distinct(videoId, .keep_all = T) %>%
     arrange(videoId) %>%
+    mutate(videoDuration = "XX:XX:XX", .before = videoTitle) %>%
     write.table(paste0(path, "/data/setup/videos_to_consider_pull.txt"), sep = "\t",
                 row.names = F, quote = F, col.names = F)
 
