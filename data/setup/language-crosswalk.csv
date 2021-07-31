@@ -1,44 +1,44 @@
 "code","language","from_data","n_vid"
-"ar","Arabic",1,97
+"ar","Arabic",1,98
 "cs","Czech",1,41
-"da","Danish",1,44
-"de","German",1,192
-"de-DE","German (Germany)",1,57
-"en","English",1,8581
+"da","Danish",1,45
+"de","German",1,194
+"de-DE","German (Germany)",1,58
+"en","English",1,8627
 "en-CA","English (Canada)",1,4
 "en-GB","English (United Kingdom)",1,48
-"en-US","English (United States)",1,297
-"es","Spanish",1,678
-"es-419","Spanish (Latin America)",1,95
-"es-ES","Spanish (Spain)",1,78
-"es-MX","Spanish (Mexico)",1,72
+"en-US","English (United States)",1,300
+"es","Spanish",1,682
+"es-419","Spanish (Latin America)",1,96
+"es-ES","Spanish (Spain)",1,79
+"es-MX","Spanish (Mexico)",1,73
 "fa-IR","Persian (Iran)",1,9
-"fi","Finnish",1,62
-"fr","French",1,262
-"fr-FR","French (France)",1,44
-"hi","Hindi",1,48
+"fi","Finnish",1,63
+"fr","French",1,264
+"fr-FR","French (France)",1,45
+"hi","Hindi",1,49
 "id","Indonesian",1,109
-"it","Italian",1,191
-"ja","Japanese",1,260
-"ko","Korean",1,334
+"it","Italian",1,193
+"ja","Japanese",1,262
+"ko","Korean",1,336
 "ms","Malay",1,20
-"nl","Dutch",1,189
-"nl-NL","Dutch (Netherands)",1,37
-"no","Norwegian",1,43
-"pl","Polish",1,129
-"pt","Portugese",1,195
-"pt-BR","Portugese (Brazil)",1,164
-"pt-PT","Portugese (Portugal)",1,35
-"ru","Russian",1,241
-"sv","Swedish",1,49
+"nl","Dutch",1,190
+"nl-NL","Dutch (Netherands)",1,38
+"no","Norwegian",1,44
+"pl","Polish",1,131
+"pt","Portugese",1,196
+"pt-BR","Portugese (Brazil)",1,166
+"pt-PT","Portugese (Portugal)",1,36
+"ru","Russian",1,244
+"sv","Swedish",1,50
 "th","Thai",1,112
-"tr","Turkish",1,100
+"tr","Turkish",1,101
 "vi","Vietnamese",1,80
 "yue-HK","Cantonese (Hong Kong)",1,3
 "zh-CN","Chinese (China)",1,15
-"zh-Hans","Chinese (Simplified)",1,155
-"zh-Hant","Chinese (Traditional)",1,127
-"zh-HK","Chinese (Hong Kong)",1,13
+"zh-Hans","Chinese (Simplified)",1,157
+"zh-Hant","Chinese (Traditional)",1,129
+"zh-HK","Chinese (Hong Kong)",1,14
 "zh-SG","Chinese (Singapore)",1,1
 "zh-TW","Chinese (Taiwan)",1,22
 "en-IE","English (Ireland)",1,3
