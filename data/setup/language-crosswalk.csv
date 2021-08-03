@@ -1,46 +1,46 @@
 "code","language","from_data","n_vid"
-"ar","Arabic",1,98
+"ar","Arabic",1,101
 "cs","Czech",1,41
-"da","Danish",1,45
-"de","German",1,194
-"de-DE","German (Germany)",1,58
-"en","English",1,8673
+"da","Danish",1,46
+"de","German",1,197
+"de-DE","German (Germany)",1,59
+"en","English",1,8709
 "en-CA","English (Canada)",1,4
 "en-GB","English (United Kingdom)",1,48
-"en-US","English (United States)",1,301
-"es","Spanish",1,689
+"en-US","English (United States)",1,304
+"es","Spanish",1,693
 "es-419","Spanish (Latin America)",1,96
-"es-ES","Spanish (Spain)",1,79
-"es-MX","Spanish (Mexico)",1,73
+"es-ES","Spanish (Spain)",1,80
+"es-MX","Spanish (Mexico)",1,74
 "fa-IR","Persian (Iran)",1,9
-"fi","Finnish",1,63
-"fr","French",1,265
-"fr-FR","French (France)",1,45
-"hi","Hindi",1,49
+"fi","Finnish",1,65
+"fr","French",1,267
+"fr-FR","French (France)",1,46
+"hi","Hindi",1,50
 "id","Indonesian",1,110
-"it","Italian",1,194
-"ja","Japanese",1,263
-"ko","Korean",1,337
+"it","Italian",1,196
+"ja","Japanese",1,267
+"ko","Korean",1,341
 "ms","Malay",1,20
-"nl","Dutch",1,191
-"nl-NL","Dutch (Netherands)",1,38
-"no","Norwegian",1,44
-"pl","Polish",1,131
-"pt","Portugese",1,197
-"pt-BR","Portugese (Brazil)",1,166
-"pt-PT","Portugese (Portugal)",1,36
-"ru","Russian",1,244
-"sv","Swedish",1,50
+"nl","Dutch",1,192
+"nl-NL","Dutch (Netherands)",1,39
+"no","Norwegian",1,46
+"pl","Polish",1,133
+"pt","Portugese",1,200
+"pt-BR","Portugese (Brazil)",1,168
+"pt-PT","Portugese (Portugal)",1,37
+"ru","Russian",1,248
+"sv","Swedish",1,52
 "th","Thai",1,113
-"tr","Turkish",1,101
-"vi","Vietnamese",1,80
+"tr","Turkish",1,103
+"vi","Vietnamese",1,81
 "yue-HK","Cantonese (Hong Kong)",1,3
 "zh-CN","Chinese (China)",1,15
-"zh-Hans","Chinese (Simplified)",1,159
-"zh-Hant","Chinese (Traditional)",1,129
+"zh-Hans","Chinese (Simplified)",1,162
+"zh-Hant","Chinese (Traditional)",1,130
 "zh-HK","Chinese (Hong Kong)",1,14
 "zh-SG","Chinese (Singapore)",1,1
-"zh-TW","Chinese (Taiwan)",1,22
+"zh-TW","Chinese (Taiwan)",1,23
 "en-IE","English (Ireland)",1,3
 "az","Azerbaijani",1,5
 "bg","Bulgarian",1,8
@@ -49,7 +49,7 @@
 "el","Greek",1,22
 "eu","Basque",1,4
 "fa","Persian",1,12
-"fil","Filipino",1,22
+"fil","Filipino",1,23
 "hr","Croatian",1,9
 "hu","Hungarian",1,23
 "iw","Hebrew",1,12
@@ -59,12 +59,12 @@
 "mk","Macedonian",1,4
 "mn","Mongolian",1,4
 "my","Burmese",1,4
-"ro","Romanian",1,16
+"ro","Romanian",1,17
 "sk","Slovak",1,9
 "sl","Slovenian",1,6
 "sr","Serbian",1,5
 "uk","Ukrainian",1,8
-"zh","Chinese",1,60
+"zh","Chinese",1,62
 "am","Amhric",1,1
 "hy","Amenian",1,3
 "is","Icelandic",1,2
@@ -74,7 +74,7 @@
 "eo","Esperanto",1,6
 "id-ID","Indonesian (Indonesia)",1,1
 "es-US","Spanish (United States)",1,7
-"fr-CA","French (Canada)",1,15
+"fr-CA","French (Canada)",1,16
 "et","Estonian",1,2
 "fa-AF","Persian (Afghanistan)",1,1
 "lt","Lithuanian",1,2
