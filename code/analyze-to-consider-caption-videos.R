@@ -59,3 +59,5 @@ lines.gp2 %>%
   select(video_id, length_str, title) %>%
   write.table(file = "data/setup/videos_not_to_pull_caption_text.txt", sep = "\t", append = T, 
               row.names = F, col.names = F, quote = F)
+
+file.remove("videos_to_consider_output.txt")
