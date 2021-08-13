@@ -1,39 +1,39 @@
 "code","language","from_data","n_vid"
 "ar","Arabic",1,103
-"cs","Czech",1,41
+"cs","Czech",1,42
 "da","Danish",1,46
-"de","German",1,199
+"de","German",1,200
 "de-DE","German (Germany)",1,59
-"en","English",1,8987
+"en","English",1,9013
 "en-CA","English (Canada)",1,4
 "en-GB","English (United Kingdom)",1,50
-"en-US","English (United States)",1,316
-"es","Spanish",1,708
-"es-419","Spanish (Latin America)",1,97
+"en-US","English (United States)",1,320
+"es","Spanish",1,711
+"es-419","Spanish (Latin America)",1,98
 "es-ES","Spanish (Spain)",1,80
-"es-MX","Spanish (Mexico)",1,74
+"es-MX","Spanish (Mexico)",1,75
 "fa-IR","Persian (Iran)",1,9
 "fi","Finnish",1,65
-"fr","French",1,269
+"fr","French",1,270
 "fr-FR","French (France)",1,46
-"hi","Hindi",1,51
+"hi","Hindi",1,52
 "id","Indonesian",1,115
 "it","Italian",1,197
-"ja","Japanese",1,272
-"ko","Korean",1,349
+"ja","Japanese",1,273
+"ko","Korean",1,350
 "ms","Malay",1,20
 "nl","Dutch",1,194
 "nl-NL","Dutch (Netherands)",1,39
 "no","Norwegian",1,46
-"pl","Polish",1,133
+"pl","Polish",1,134
 "pt","Portugese",1,205
 "pt-BR","Portugese (Brazil)",1,168
 "pt-PT","Portugese (Portugal)",1,37
-"ru","Russian",1,251
+"ru","Russian",1,252
 "sv","Swedish",1,52
 "th","Thai",1,117
-"tr","Turkish",1,103
-"vi","Vietnamese",1,83
+"tr","Turkish",1,104
+"vi","Vietnamese",1,86
 "yue-HK","Cantonese (Hong Kong)",1,3
 "zh-CN","Chinese (China)",1,15
 "zh-Hans","Chinese (Simplified)",1,163
