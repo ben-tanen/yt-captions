@@ -2,20 +2,20 @@
 "ar","Arabic",1,104
 "cs","Czech",1,42
 "da","Danish",1,46
-"de","German",1,203
+"de","German",1,204
 "de-DE","German (Germany)",1,60
-"en","English",1,9196
+"en","English",1,9218
 "en-CA","English (Canada)",1,4
-"en-GB","English (United Kingdom)",1,50
-"en-US","English (United States)",1,324
-"es","Spanish",1,724
+"en-GB","English (United Kingdom)",1,51
+"en-US","English (United States)",1,328
+"es","Spanish",1,725
 "es-419","Spanish (Latin America)",1,100
 "es-ES","Spanish (Spain)",1,82
 "es-MX","Spanish (Mexico)",1,76
 "fa-IR","Persian (Iran)",1,9
-"fi","Finnish",1,65
+"fi","Finnish",1,66
 "fr","French",1,272
-"fr-FR","French (France)",1,46
+"fr-FR","French (France)",1,47
 "hi","Hindi",1,52
 "id","Indonesian",1,120
 "it","Italian",1,200
@@ -29,8 +29,8 @@
 "pt","Portugese",1,209
 "pt-BR","Portugese (Brazil)",1,171
 "pt-PT","Portugese (Portugal)",1,37
-"ru","Russian",1,256
-"sv","Swedish",1,52
+"ru","Russian",1,257
+"sv","Swedish",1,53
 "th","Thai",1,118
 "tr","Turkish",1,105
 "vi","Vietnamese",1,92
@@ -74,7 +74,7 @@
 "eo","Esperanto",1,6
 "id-ID","Indonesian (Indonesia)",1,1
 "es-US","Spanish (United States)",1,7
-"fr-CA","French (Canada)",1,16
+"fr-CA","French (Canada)",1,17
 "et","Estonian",1,2
 "fa-AF","Persian (Afghanistan)",1,1
 "lt","Lithuanian",1,2
