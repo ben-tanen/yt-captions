@@ -1,43 +1,43 @@
 "code","language","from_data","n_vid"
-"ar","Arabic",1,104
+"ar","Arabic",1,105
 "cs","Czech",1,42
 "da","Danish",1,46
-"de","German",1,205
+"de","German",1,206
 "de-DE","German (Germany)",1,60
-"en","English",1,9250
+"en","English",1,9282
 "en-CA","English (Canada)",1,4
 "en-GB","English (United Kingdom)",1,51
-"en-US","English (United States)",1,329
-"es","Spanish",1,728
+"en-US","English (United States)",1,330
+"es","Spanish",1,730
 "es-419","Spanish (Latin America)",1,100
 "es-ES","Spanish (Spain)",1,82
 "es-MX","Spanish (Mexico)",1,76
 "fa-IR","Persian (Iran)",1,9
-"fi","Finnish",1,66
-"fr","French",1,274
+"fi","Finnish",1,67
+"fr","French",1,275
 "fr-FR","French (France)",1,47
 "hi","Hindi",1,52
-"id","Indonesian",1,121
-"it","Italian",1,200
-"ja","Japanese",1,280
-"ko","Korean",1,356
+"id","Indonesian",1,122
+"it","Italian",1,201
+"ja","Japanese",1,281
+"ko","Korean",1,358
 "ms","Malay",1,20
-"nl","Dutch",1,196
+"nl","Dutch",1,198
 "nl-NL","Dutch (Netherands)",1,39
 "no","Norwegian",1,46
-"pl","Polish",1,135
-"pt","Portugese",1,211
-"pt-BR","Portugese (Brazil)",1,171
+"pl","Polish",1,136
+"pt","Portugese",1,212
+"pt-BR","Portugese (Brazil)",1,172
 "pt-PT","Portugese (Portugal)",1,37
-"ru","Russian",1,258
+"ru","Russian",1,259
 "sv","Swedish",1,53
-"th","Thai",1,119
-"tr","Turkish",1,105
+"th","Thai",1,120
+"tr","Turkish",1,106
 "vi","Vietnamese",1,96
 "yue-HK","Cantonese (Hong Kong)",1,3
 "zh-CN","Chinese (China)",1,15
-"zh-Hans","Chinese (Simplified)",1,164
-"zh-Hant","Chinese (Traditional)",1,131
+"zh-Hans","Chinese (Simplified)",1,165
+"zh-Hant","Chinese (Traditional)",1,132
 "zh-HK","Chinese (Hong Kong)",1,14
 "zh-SG","Chinese (Singapore)",1,1
 "zh-TW","Chinese (Taiwan)",1,23
@@ -52,7 +52,7 @@
 "fil","Filipino",1,23
 "hr","Croatian",1,9
 "hu","Hungarian",1,24
-"iw","Hebrew",1,12
+"iw","Hebrew",1,13
 "kk","Kazakh",1,4
 "km","Khmer",1,8
 "lo","Lao",1,5
@@ -64,7 +64,7 @@
 "sl","Slovenian",1,6
 "sr","Serbian",1,5
 "uk","Ukrainian",1,8
-"zh","Chinese",1,69
+"zh","Chinese",1,70
 "am","Amhric",1,1
 "hy","Amenian",1,3
 "is","Icelandic",1,2
