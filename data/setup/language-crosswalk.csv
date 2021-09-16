@@ -4,10 +4,10 @@
 "da","Danish",1,49
 "de","German",1,220
 "de-DE","German (Germany)",1,62
-"en","English",1,10014
+"en","English",1,10064
 "en-CA","English (Canada)",1,4
 "en-GB","English (United Kingdom)",1,53
-"en-US","English (United States)",1,350
+"en-US","English (United States)",1,354
 "es","Spanish",1,770
 "es-419","Spanish (Latin America)",1,106
 "es-ES","Spanish (Spain)",1,87
@@ -20,9 +20,9 @@
 "id","Indonesian",1,135
 "it","Italian",1,212
 "ja","Japanese",1,300
-"ko","Korean",1,381
+"ko","Korean",1,382
 "ms","Malay",1,23
-"nl","Dutch",1,209
+"nl","Dutch",1,210
 "nl-NL","Dutch (Netherands)",1,41
 "no","Norwegian",1,49
 "pl","Polish",1,145
@@ -101,5 +101,6 @@
 "sq",NA,1,1
 "uz",NA,1,1
 "hi-Latn",NA,1,1
+"la",NA,1,1
 "ig","Igbo",NA,NA
 "rw","Kinyarwanda",NA,NA
