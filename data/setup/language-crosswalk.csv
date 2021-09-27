@@ -1,70 +1,70 @@
 "code","language","from_data","n_vid"
-"ar","Arabic",1,118
-"cs","Czech",1,48
-"da","Danish",1,51
-"de","German",1,224
+"ar","Arabic",1,119
+"cs","Czech",1,49
+"da","Danish",1,52
+"de","German",1,225
 "de-DE","German (Germany)",1,62
-"en","English",1,10423
+"en","English",1,10472
 "en-CA","English (Canada)",1,5
 "en-GB","English (United Kingdom)",1,53
 "en-US","English (United States)",1,367
-"es","Spanish",1,787
-"es-419","Spanish (Latin America)",1,108
-"es-ES","Spanish (Spain)",1,89
-"es-MX","Spanish (Mexico)",1,82
+"es","Spanish",1,789
+"es-419","Spanish (Latin America)",1,110
+"es-ES","Spanish (Spain)",1,90
+"es-MX","Spanish (Mexico)",1,83
 "fa-IR","Persian (Iran)",1,9
-"fi","Finnish",1,73
-"fr","French",1,304
+"fi","Finnish",1,74
+"fr","French",1,306
 "fr-FR","French (France)",1,50
-"hi","Hindi",1,60
-"id","Indonesian",1,141
-"it","Italian",1,217
-"ja","Japanese",1,306
-"ko","Korean",1,388
-"ms","Malay",1,24
-"nl","Dutch",1,217
+"hi","Hindi",1,61
+"id","Indonesian",1,142
+"it","Italian",1,220
+"ja","Japanese",1,308
+"ko","Korean",1,390
+"ms","Malay",1,25
+"nl","Dutch",1,219
 "nl-NL","Dutch (Netherands)",1,41
 "no","Norwegian",1,51
-"pl","Polish",1,148
-"pt","Portugese",1,226
-"pt-BR","Portugese (Brazil)",1,187
+"pl","Polish",1,149
+"pt","Portugese",1,229
+"pt-BR","Portugese (Brazil)",1,189
 "pt-PT","Portugese (Portugal)",1,41
-"ru","Russian",1,283
-"sv","Swedish",1,59
-"th","Thai",1,134
-"tr","Turkish",1,115
-"vi","Vietnamese",1,116
-"yue-HK","Cantonese (Hong Kong)",1,4
+"ru","Russian",1,284
+"sv","Swedish",1,60
+"th","Thai",1,135
+"tr","Turkish",1,117
+"vi","Vietnamese",1,117
+"yue-HK","Cantonese (Hong Kong)",1,5
 "zh-CN","Chinese (China)",1,16
-"zh-Hans","Chinese (Simplified)",1,176
-"zh-Hant","Chinese (Traditional)",1,142
+"zh-Hans","Chinese (Simplified)",1,177
+"zh-Hant","Chinese (Traditional)",1,144
 "zh-HK","Chinese (Hong Kong)",1,17
 "zh-SG","Chinese (Singapore)",1,2
 "zh-TW","Chinese (Taiwan)",1,30
 "en-IE","English (Ireland)",1,3
-"az","Azerbaijani",1,7
-"bg","Bulgarian",1,11
-"bn","Bangla",1,7
-"ca","Catalan",1,8
-"el","Greek",1,28
-"eu","Basque",1,6
-"fa","Persian",1,14
-"fil","Filipino",1,26
-"hr","Croatian",1,12
-"hu","Hungarian",1,29
-"iw","Hebrew",1,17
-"kk","Kazakh",1,6
-"km","Khmer",1,10
-"lo","Lao",1,7
-"mk","Macedonian",1,6
-"mn","Mongolian",1,6
-"my","Burmese",1,6
-"ro","Romanian",1,23
-"sk","Slovak",1,11
-"sl","Slovenian",1,8
-"sr","Serbian",1,7
+"az","Azerbaijani",1,8
+"bg","Bulgarian",1,13
+"bn","Bangla",1,8
+"ca","Catalan",1,9
+"el","Greek",1,29
+"eu","Basque",1,7
+"fa","Persian",1,15
+"fil","Filipino",1,27
+"hr","Croatian",1,13
+"hu","Hungarian",1,30
+"iw","Hebrew",1,18
+"kk","Kazakh",1,7
+"km","Khmer",1,11
+"lo","Lao",1,8
+"mk","Macedonian",1,7
+"mn","Mongolian",1,7
+"my","Burmese",1,7
+"ro","Romanian",1,24
+"sk","Slovak",1,12
+"sl","Slovenian",1,9
+"sr","Serbian",1,8
 "uk","Ukrainian",1,12
-"zh","Chinese",1,76
+"zh","Chinese",1,77
 "am","Amhric",1,2
 "hy","Amenian",1,4
 "is","Icelandic",1,3
@@ -73,7 +73,7 @@
 "af","Afrikaans",1,2
 "eo","Esperanto",1,6
 "id-ID","Indonesian (Indonesia)",1,1
-"es-US","Spanish (United States)",1,9
+"es-US","Spanish (United States)",1,10
 "fr-CA","French (Canada)",1,19
 "et","Estonian",1,3
 "fa-AF","Persian (Afghanistan)",1,1
@@ -81,7 +81,7 @@
 "lv","Latvian",1,4
 "ta","Tamil",1,3
 "zu","Zulu",1,2
-"fj","Fijian",1,4
+"fj","Fijian",1,5
 "yue","Cantonese",1,6
 "gu","Gujarati",1,1
 "kn","Kannada",1,1
