@@ -1,46 +1,46 @@
 "code","language","from_data","n_vid"
-"ar","Arabic",1,130
+"ar","Arabic",1,133
 "cs","Czech",1,52
 "da","Danish",1,54
-"de","German",1,244
+"de","German",1,246
 "de-DE","German (Germany)",1,65
-"en","English",1,11324
+"en","English",1,11366
 "en-CA","English (Canada)",1,5
 "en-GB","English (United Kingdom)",1,58
 "en-US","English (United States)",1,400
-"es","Spanish",1,848
+"es","Spanish",1,852
 "es-419","Spanish (Latin America)",1,114
-"es-ES","Spanish (Spain)",1,95
-"es-MX","Spanish (Mexico)",1,90
+"es-ES","Spanish (Spain)",1,96
+"es-MX","Spanish (Mexico)",1,91
 "fa-IR","Persian (Iran)",1,9
 "fi","Finnish",1,78
-"fr","French",1,332
+"fr","French",1,335
 "fr-FR","French (France)",1,53
-"hi","Hindi",1,65
-"id","Indonesian",1,149
-"it","Italian",1,235
-"ja","Japanese",1,335
-"ko","Korean",1,423
-"ms","Malay",1,25
-"nl","Dutch",1,233
+"hi","Hindi",1,66
+"id","Indonesian",1,150
+"it","Italian",1,236
+"ja","Japanese",1,338
+"ko","Korean",1,426
+"ms","Malay",1,26
+"nl","Dutch",1,235
 "nl-NL","Dutch (Netherands)",1,44
 "no","Norwegian",1,55
-"pl","Polish",1,157
-"pt","Portugese",1,245
-"pt-BR","Portugese (Brazil)",1,197
+"pl","Polish",1,158
+"pt","Portugese",1,249
+"pt-BR","Portugese (Brazil)",1,199
 "pt-PT","Portugese (Portugal)",1,44
-"ru","Russian",1,304
+"ru","Russian",1,305
 "sv","Swedish",1,63
-"th","Thai",1,144
+"th","Thai",1,145
 "tr","Turkish",1,124
-"vi","Vietnamese",1,129
+"vi","Vietnamese",1,130
 "yue-HK","Cantonese (Hong Kong)",1,5
 "zh-CN","Chinese (China)",1,16
 "zh-Hans","Chinese (Simplified)",1,189
 "zh-Hant","Chinese (Traditional)",1,156
 "zh-HK","Chinese (Hong Kong)",1,18
 "zh-SG","Chinese (Singapore)",1,2
-"zh-TW","Chinese (Taiwan)",1,33
+"zh-TW","Chinese (Taiwan)",1,34
 "en-IE","English (Ireland)",1,5
 "az","Azerbaijani",1,8
 "bg","Bulgarian",1,13
@@ -49,7 +49,7 @@
 "el","Greek",1,31
 "eu","Basque",1,7
 "fa","Persian",1,15
-"fil","Filipino",1,28
+"fil","Filipino",1,29
 "hr","Croatian",1,13
 "hu","Hungarian",1,31
 "iw","Hebrew",1,18
@@ -64,7 +64,7 @@
 "sl","Slovenian",1,9
 "sr","Serbian",1,8
 "uk","Ukrainian",1,12
-"zh","Chinese",1,89
+"zh","Chinese",1,91
 "am","Amhric",1,2
 "hy","Amenian",1,4
 "is","Icelandic",1,3
