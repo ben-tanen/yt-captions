@@ -4,11 +4,11 @@
 "da","Danish",1,59
 "de","German",1,274
 "de-DE","German (Germany)",1,71
-"en","English",1,12695
+"en","English",1,12741
 "en-CA","English (Canada)",1,5
-"en-GB","English (United Kingdom)",1,66
-"en-US","English (United States)",1,441
-"es","Spanish",1,930
+"en-GB","English (United Kingdom)",1,67
+"en-US","English (United States)",1,443
+"es","Spanish",1,935
 "es-419","Spanish (Latin America)",1,123
 "es-ES","Spanish (Spain)",1,104
 "es-MX","Spanish (Mexico)",1,98
@@ -17,10 +17,10 @@
 "fr","French",1,368
 "fr-FR","French (France)",1,58
 "hi","Hindi",1,82
-"id","Indonesian",1,175
+"id","Indonesian",1,176
 "it","Italian",1,267
-"ja","Japanese",1,376
-"ko","Korean",1,470
+"ja","Japanese",1,377
+"ko","Korean",1,472
 "ms","Malay",1,31
 "nl","Dutch",1,260
 "nl-NL","Dutch (Netherands)",1,47
@@ -33,7 +33,7 @@
 "sv","Swedish",1,72
 "th","Thai",1,162
 "tr","Turkish",1,141
-"vi","Vietnamese",1,155
+"vi","Vietnamese",1,156
 "yue-HK","Cantonese (Hong Kong)",1,6
 "zh-CN","Chinese (China)",1,18
 "zh-Hans","Chinese (Simplified)",1,209
@@ -64,7 +64,7 @@
 "sl","Slovenian",1,11
 "sr","Serbian",1,10
 "uk","Ukrainian",1,15
-"zh","Chinese",1,104
+"zh","Chinese",1,105
 "am","Amhric",1,2
 "hy","Amenian",1,5
 "is","Icelandic",1,4
