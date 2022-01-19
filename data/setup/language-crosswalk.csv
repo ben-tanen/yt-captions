@@ -2,25 +2,25 @@
 "ar","Arabic",1,173
 "cs","Czech",1,68
 "da","Danish",1,66
-"de","German",1,303
+"de","German",1,304
 "de-DE","German (Germany)",1,75
-"en","English",1,14316
+"en","English",1,14357
 "en-CA","English (Canada)",1,6
 "en-GB","English (United Kingdom)",1,78
 "en-US","English (United States)",1,497
-"es","Spanish",1,1020
+"es","Spanish",1,1021
 "es-419","Spanish (Latin America)",1,133
 "es-ES","Spanish (Spain)",1,112
 "es-MX","Spanish (Mexico)",1,105
 "fa-IR","Persian (Iran)",1,10
 "fi","Finnish",1,96
-"fr","French",1,399
+"fr","French",1,400
 "fr-FR","French (France)",1,62
 "hi","Hindi",1,90
 "id","Indonesian",1,195
 "it","Italian",1,287
 "ja","Japanese",1,411
-"ko","Korean",1,512
+"ko","Korean",1,513
 "ms","Malay",1,35
 "nl","Dutch",1,289
 "nl-NL","Dutch (Netherands)",1,50
@@ -37,7 +37,7 @@
 "yue-HK","Cantonese (Hong Kong)",1,6
 "zh-CN","Chinese (China)",1,20
 "zh-Hans","Chinese (Simplified)",1,227
-"zh-Hant","Chinese (Traditional)",1,188
+"zh-Hant","Chinese (Traditional)",1,189
 "zh-HK","Chinese (Hong Kong)",1,21
 "zh-SG","Chinese (Singapore)",1,2
 "zh-TW","Chinese (Taiwan)",1,46
