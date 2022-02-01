@@ -1,43 +1,43 @@
 "code","language","from_data","n_vid"
-"ar","Arabic",1,175
+"ar","Arabic",1,176
 "cs","Czech",1,68
-"da","Danish",1,68
+"da","Danish",1,69
 "de","German",1,304
-"de-DE","German (Germany)",1,77
-"en","English",1,14818
+"de-DE","German (Germany)",1,78
+"en","English",1,14859
 "en-CA","English (Canada)",1,6
 "en-GB","English (United Kingdom)",1,78
-"en-US","English (United States)",1,505
-"es","Spanish",1,1035
+"en-US","English (United States)",1,508
+"es","Spanish",1,1037
 "es-419","Spanish (Latin America)",1,133
-"es-ES","Spanish (Spain)",1,114
-"es-MX","Spanish (Mexico)",1,108
+"es-ES","Spanish (Spain)",1,115
+"es-MX","Spanish (Mexico)",1,109
 "fa-IR","Persian (Iran)",1,10
-"fi","Finnish",1,98
+"fi","Finnish",1,99
 "fr","French",1,401
-"fr-FR","French (France)",1,64
+"fr-FR","French (France)",1,65
 "hi","Hindi",1,91
 "id","Indonesian",1,196
-"it","Italian",1,290
-"ja","Japanese",1,414
-"ko","Korean",1,516
+"it","Italian",1,291
+"ja","Japanese",1,415
+"ko","Korean",1,517
 "ms","Malay",1,35
-"nl","Dutch",1,289
-"nl-NL","Dutch (Netherands)",1,52
-"no","Norwegian",1,69
-"pl","Polish",1,197
+"nl","Dutch",1,290
+"nl-NL","Dutch (Netherands)",1,53
+"no","Norwegian",1,70
+"pl","Polish",1,198
 "pt","Portugese",1,308
-"pt-BR","Portugese (Brazil)",1,240
-"pt-PT","Portugese (Portugal)",1,54
-"ru","Russian",1,362
-"sv","Swedish",1,81
+"pt-BR","Portugese (Brazil)",1,241
+"pt-PT","Portugese (Portugal)",1,55
+"ru","Russian",1,364
+"sv","Swedish",1,82
 "th","Thai",1,179
 "tr","Turkish",1,158
 "vi","Vietnamese",1,190
 "yue-HK","Cantonese (Hong Kong)",1,6
 "zh-CN","Chinese (China)",1,20
-"zh-Hans","Chinese (Simplified)",1,229
-"zh-Hant","Chinese (Traditional)",1,191
+"zh-Hans","Chinese (Simplified)",1,230
+"zh-Hant","Chinese (Traditional)",1,192
 "zh-HK","Chinese (Hong Kong)",1,21
 "zh-SG","Chinese (Singapore)",1,2
 "zh-TW","Chinese (Taiwan)",1,46
@@ -74,7 +74,7 @@
 "eo","Esperanto",1,7
 "id-ID","Indonesian (Indonesia)",1,1
 "es-US","Spanish (United States)",1,11
-"fr-CA","French (Canada)",1,32
+"fr-CA","French (Canada)",1,33
 "et","Estonian",1,6
 "fa-AF","Persian (Afghanistan)",1,1
 "lt","Lithuanian",1,9
