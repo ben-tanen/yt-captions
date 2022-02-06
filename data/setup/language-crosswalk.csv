@@ -1,32 +1,32 @@
 "code","language","from_data","n_vid"
-"ar","Arabic",1,177
+"ar","Arabic",1,178
 "cs","Czech",1,68
 "da","Danish",1,70
-"de","German",1,306
+"de","German",1,307
 "de-DE","German (Germany)",1,79
-"en","English",1,15024
+"en","English",1,15066
 "en-CA","English (Canada)",1,6
 "en-GB","English (United Kingdom)",1,80
 "en-US","English (United States)",1,514
-"es","Spanish",1,1044
+"es","Spanish",1,1045
 "es-419","Spanish (Latin America)",1,134
 "es-ES","Spanish (Spain)",1,116
 "es-MX","Spanish (Mexico)",1,111
 "fa-IR","Persian (Iran)",1,10
 "fi","Finnish",1,100
-"fr","French",1,403
+"fr","French",1,404
 "fr-FR","French (France)",1,66
-"hi","Hindi",1,93
+"hi","Hindi",1,94
 "id","Indonesian",1,200
 "it","Italian",1,292
 "ja","Japanese",1,417
 "ko","Korean",1,520
 "ms","Malay",1,35
-"nl","Dutch",1,290
+"nl","Dutch",1,291
 "nl-NL","Dutch (Netherands)",1,54
 "no","Norwegian",1,71
 "pl","Polish",1,199
-"pt","Portugese",1,310
+"pt","Portugese",1,311
 "pt-BR","Portugese (Brazil)",1,242
 "pt-PT","Portugese (Portugal)",1,56
 "ru","Russian",1,367
