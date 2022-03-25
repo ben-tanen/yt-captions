@@ -2,42 +2,42 @@
 "ar","Arabic",1,192
 "cs","Czech",1,69
 "da","Danish",1,72
-"de","German",1,330
-"de-DE","German (Germany)",1,82
-"en","English",1,16678
+"de","German",1,331
+"de-DE","German (Germany)",1,83
+"en","English",1,16710
 "en-CA","English (Canada)",1,7
 "en-GB","English (United Kingdom)",1,85
-"en-US","English (United States)",1,559
-"es","Spanish",1,1126
-"es-419","Spanish (Latin America)",1,148
-"es-ES","Spanish (Spain)",1,117
-"es-MX","Spanish (Mexico)",1,117
+"en-US","English (United States)",1,560
+"es","Spanish",1,1130
+"es-419","Spanish (Latin America)",1,149
+"es-ES","Spanish (Spain)",1,118
+"es-MX","Spanish (Mexico)",1,118
 "fa-IR","Persian (Iran)",1,10
 "fi","Finnish",1,104
-"fr","French",1,427
-"fr-FR","French (France)",1,68
+"fr","French",1,428
+"fr-FR","French (France)",1,69
 "hi","Hindi",1,110
-"id","Indonesian",1,222
-"it","Italian",1,305
-"ja","Japanese",1,447
-"ko","Korean",1,555
+"id","Indonesian",1,223
+"it","Italian",1,308
+"ja","Japanese",1,448
+"ko","Korean",1,556
 "ms","Malay",1,35
 "nl","Dutch",1,299
 "nl-NL","Dutch (Netherands)",1,57
 "no","Norwegian",1,73
-"pl","Polish",1,208
-"pt","Portugese",1,323
-"pt-BR","Portugese (Brazil)",1,254
+"pl","Polish",1,209
+"pt","Portugese",1,324
+"pt-BR","Portugese (Brazil)",1,255
 "pt-PT","Portugese (Portugal)",1,57
-"ru","Russian",1,385
+"ru","Russian",1,386
 "sv","Swedish",1,87
-"th","Thai",1,199
+"th","Thai",1,200
 "tr","Turkish",1,165
-"vi","Vietnamese",1,200
+"vi","Vietnamese",1,201
 "yue-HK","Cantonese (Hong Kong)",1,6
 "zh-CN","Chinese (China)",1,22
-"zh-Hans","Chinese (Simplified)",1,248
-"zh-Hant","Chinese (Traditional)",1,205
+"zh-Hans","Chinese (Simplified)",1,250
+"zh-Hant","Chinese (Traditional)",1,207
 "zh-HK","Chinese (Hong Kong)",1,21
 "zh-SG","Chinese (Singapore)",1,2
 "zh-TW","Chinese (Taiwan)",1,47
