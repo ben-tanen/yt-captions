@@ -1,42 +1,42 @@
 "code","language","from_data","n_vid"
-"ar","Arabic",1,194
+"ar","Arabic",1,196
 "cs","Czech",1,69
 "da","Danish",1,72
 "de","German",1,333
-"de-DE","German (Germany)",1,83
-"en","English",1,16746
+"de-DE","German (Germany)",1,84
+"en","English",1,16782
 "en-CA","English (Canada)",1,7
 "en-GB","English (United Kingdom)",1,85
-"en-US","English (United States)",1,560
-"es","Spanish",1,1133
+"en-US","English (United States)",1,561
+"es","Spanish",1,1138
 "es-419","Spanish (Latin America)",1,149
 "es-ES","Spanish (Spain)",1,118
-"es-MX","Spanish (Mexico)",1,118
+"es-MX","Spanish (Mexico)",1,119
 "fa-IR","Persian (Iran)",1,10
 "fi","Finnish",1,104
 "fr","French",1,430
 "fr-FR","French (France)",1,69
-"hi","Hindi",1,112
-"id","Indonesian",1,225
+"hi","Hindi",1,114
+"id","Indonesian",1,227
 "it","Italian",1,309
-"ja","Japanese",1,449
-"ko","Korean",1,557
-"ms","Malay",1,35
+"ja","Japanese",1,450
+"ko","Korean",1,558
+"ms","Malay",1,36
 "nl","Dutch",1,299
-"nl-NL","Dutch (Netherands)",1,57
+"nl-NL","Dutch (Netherands)",1,58
 "no","Norwegian",1,73
-"pl","Polish",1,209
+"pl","Polish",1,210
 "pt","Portugese",1,326
-"pt-BR","Portugese (Brazil)",1,255
+"pt-BR","Portugese (Brazil)",1,256
 "pt-PT","Portugese (Portugal)",1,57
 "ru","Russian",1,386
-"sv","Swedish",1,87
-"th","Thai",1,200
+"sv","Swedish",1,88
+"th","Thai",1,201
 "tr","Turkish",1,165
-"vi","Vietnamese",1,201
+"vi","Vietnamese",1,202
 "yue-HK","Cantonese (Hong Kong)",1,6
 "zh-CN","Chinese (China)",1,22
-"zh-Hans","Chinese (Simplified)",1,250
+"zh-Hans","Chinese (Simplified)",1,251
 "zh-Hant","Chinese (Traditional)",1,207
 "zh-HK","Chinese (Hong Kong)",1,21
 "zh-SG","Chinese (Singapore)",1,2
@@ -49,7 +49,7 @@
 "el","Greek",1,44
 "eu","Basque",1,8
 "fa","Persian",1,16
-"fil","Filipino",1,49
+"fil","Filipino",1,50
 "hr","Croatian",1,19
 "hu","Hungarian",1,41
 "iw","Hebrew",1,24
@@ -64,7 +64,7 @@
 "sl","Slovenian",1,13
 "sr","Serbian",1,12
 "uk","Ukrainian",1,19
-"zh","Chinese",1,129
+"zh","Chinese",1,130
 "am","Amhric",1,3
 "hy","Amenian",1,6
 "is","Icelandic",1,5
@@ -74,7 +74,7 @@
 "eo","Esperanto",1,7
 "id-ID","Indonesian (Indonesia)",1,1
 "es-US","Spanish (United States)",1,12
-"fr-CA","French (Canada)",1,36
+"fr-CA","French (Canada)",1,37
 "et","Estonian",1,6
 "fa-AF","Persian (Afghanistan)",1,1
 "lt","Lithuanian",1,9
