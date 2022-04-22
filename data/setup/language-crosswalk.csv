@@ -2,23 +2,23 @@
 "ar","Arabic",1,205
 "cs","Czech",1,70
 "da","Danish",1,72
-"de","German",1,349
+"de","German",1,350
 "de-DE","German (Germany)",1,85
-"en","English",1,17652
+"en","English",1,17692
 "en-CA","English (Canada)",1,9
 "en-GB","English (United Kingdom)",1,89
-"en-US","English (United States)",1,581
-"es","Spanish",1,1175
+"en-US","English (United States)",1,585
+"es","Spanish",1,1177
 "es-419","Spanish (Latin America)",1,156
 "es-ES","Spanish (Spain)",1,121
 "es-MX","Spanish (Mexico)",1,121
 "fa-IR","Persian (Iran)",1,10
 "fi","Finnish",1,105
-"fr","French",1,443
+"fr","French",1,444
 "fr-FR","French (France)",1,71
 "hi","Hindi",1,122
 "id","Indonesian",1,238
-"it","Italian",1,317
+"it","Italian",1,318
 "ja","Japanese",1,465
 "ko","Korean",1,572
 "ms","Malay",1,38
@@ -118,7 +118,7 @@
 "ur",NA,1,2
 "ne",NA,1,1
 "sco",NA,1,1
-"rm",NA,1,1
+"rm",NA,1,2
 "sm",NA,1,1
 "yo",NA,1,1
 "rw","Kinyarwanda",NA,NA
