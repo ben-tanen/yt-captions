@@ -1,43 +1,43 @@
 "code","language","from_data","n_vid"
-"ar","Arabic",1,213
+"ar","Arabic",1,215
 "cs","Czech",1,71
 "da","Danish",1,75
-"de","German",1,359
-"de-DE","German (Germany)",1,89
-"en","English",1,18517
+"de","German",1,360
+"de-DE","German (Germany)",1,90
+"en","English",1,18559
 "en-CA","English (Canada)",1,11
 "en-GB","English (United Kingdom)",1,93
-"en-US","English (United States)",1,611
-"es","Spanish",1,1218
+"en-US","English (United States)",1,615
+"es","Spanish",1,1219
 "es-419","Spanish (Latin America)",1,160
-"es-ES","Spanish (Spain)",1,124
-"es-MX","Spanish (Mexico)",1,125
+"es-ES","Spanish (Spain)",1,125
+"es-MX","Spanish (Mexico)",1,127
 "fa-IR","Persian (Iran)",1,11
 "fi","Finnish",1,111
-"fr","French",1,456
-"fr-FR","French (France)",1,73
-"hi","Hindi",1,125
+"fr","French",1,457
+"fr-FR","French (France)",1,74
+"hi","Hindi",1,126
 "id","Indonesian",1,253
-"it","Italian",1,329
-"ja","Japanese",1,483
-"ko","Korean",1,591
+"it","Italian",1,331
+"ja","Japanese",1,485
+"ko","Korean",1,593
 "ms","Malay",1,39
 "nl","Dutch",1,310
 "nl-NL","Dutch (Netherands)",1,62
 "no","Norwegian",1,78
-"pl","Polish",1,220
+"pl","Polish",1,222
 "pt","Portugese",1,342
-"pt-BR","Portugese (Brazil)",1,270
-"pt-PT","Portugese (Portugal)",1,59
-"ru","Russian",1,407
+"pt-BR","Portugese (Brazil)",1,272
+"pt-PT","Portugese (Portugal)",1,60
+"ru","Russian",1,409
 "sv","Swedish",1,94
-"th","Thai",1,215
-"tr","Turkish",1,175
-"vi","Vietnamese",1,208
+"th","Thai",1,216
+"tr","Turkish",1,176
+"vi","Vietnamese",1,209
 "yue-HK","Cantonese (Hong Kong)",1,6
 "zh-CN","Chinese (China)",1,23
-"zh-Hans","Chinese (Simplified)",1,269
-"zh-Hant","Chinese (Traditional)",1,222
+"zh-Hans","Chinese (Simplified)",1,271
+"zh-Hant","Chinese (Traditional)",1,224
 "zh-HK","Chinese (Hong Kong)",1,22
 "zh-SG","Chinese (Singapore)",1,2
 "zh-TW","Chinese (Taiwan)",1,48
@@ -49,7 +49,7 @@
 "el","Greek",1,44
 "eu","Basque",1,8
 "fa","Persian",1,16
-"fil","Filipino",1,56
+"fil","Filipino",1,57
 "hr","Croatian",1,21
 "hu","Hungarian",1,41
 "iw","Hebrew",1,24
@@ -109,7 +109,7 @@
 "gd",NA,1,1
 "ig","Igbo",1,1
 "jv",NA,1,1
-"ku",NA,1,1
+"ku",NA,1,2
 "lb",NA,1,1
 "mt",NA,1,1
 "so",NA,1,1
