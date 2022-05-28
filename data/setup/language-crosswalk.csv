@@ -1,43 +1,43 @@
 "code","language","from_data","n_vid"
-"ar","Arabic",1,217
+"ar","Arabic",1,218
 "cs","Czech",1,72
 "da","Danish",1,76
 "de","German",1,369
-"de-DE","German (Germany)",1,90
-"en","English",1,18880
+"de-DE","German (Germany)",1,91
+"en","English",1,18925
 "en-CA","English (Canada)",1,11
 "en-GB","English (United Kingdom)",1,96
-"en-US","English (United States)",1,632
-"es","Spanish",1,1239
-"es-419","Spanish (Latin America)",1,163
-"es-ES","Spanish (Spain)",1,126
+"en-US","English (United States)",1,633
+"es","Spanish",1,1243
+"es-419","Spanish (Latin America)",1,164
+"es-ES","Spanish (Spain)",1,127
 "es-MX","Spanish (Mexico)",1,129
 "fa-IR","Persian (Iran)",1,11
 "fi","Finnish",1,111
-"fr","French",1,465
-"fr-FR","French (France)",1,74
-"hi","Hindi",1,129
-"id","Indonesian",1,259
-"it","Italian",1,335
-"ja","Japanese",1,491
-"ko","Korean",1,600
-"ms","Malay",1,39
+"fr","French",1,466
+"fr-FR","French (France)",1,75
+"hi","Hindi",1,130
+"id","Indonesian",1,260
+"it","Italian",1,336
+"ja","Japanese",1,494
+"ko","Korean",1,603
+"ms","Malay",1,40
 "nl","Dutch",1,311
-"nl-NL","Dutch (Netherands)",1,62
+"nl-NL","Dutch (Netherands)",1,63
 "no","Norwegian",1,78
-"pl","Polish",1,224
-"pt","Portugese",1,347
-"pt-BR","Portugese (Brazil)",1,275
+"pl","Polish",1,225
+"pt","Portugese",1,348
+"pt-BR","Portugese (Brazil)",1,276
 "pt-PT","Portugese (Portugal)",1,60
-"ru","Russian",1,416
+"ru","Russian",1,418
 "sv","Swedish",1,95
-"th","Thai",1,221
+"th","Thai",1,222
 "tr","Turkish",1,179
-"vi","Vietnamese",1,212
+"vi","Vietnamese",1,213
 "yue-HK","Cantonese (Hong Kong)",1,6
 "zh-CN","Chinese (China)",1,23
-"zh-Hans","Chinese (Simplified)",1,276
-"zh-Hant","Chinese (Traditional)",1,229
+"zh-Hans","Chinese (Simplified)",1,277
+"zh-Hant","Chinese (Traditional)",1,230
 "zh-HK","Chinese (Hong Kong)",1,22
 "zh-SG","Chinese (Singapore)",1,2
 "zh-TW","Chinese (Taiwan)",1,48
@@ -49,7 +49,7 @@
 "el","Greek",1,45
 "eu","Basque",1,8
 "fa","Persian",1,16
-"fil","Filipino",1,59
+"fil","Filipino",1,60
 "hr","Croatian",1,21
 "hu","Hungarian",1,42
 "iw","Hebrew",1,24
@@ -64,7 +64,7 @@
 "sl","Slovenian",1,13
 "sr","Serbian",1,12
 "uk","Ukrainian",1,22
-"zh","Chinese",1,142
+"zh","Chinese",1,144
 "am","Amhric",1,3
 "hy","Amenian",1,6
 "is","Icelandic",1,5
