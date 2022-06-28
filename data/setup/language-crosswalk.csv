@@ -1,38 +1,38 @@
 "code","language","from_data","n_vid"
-"ar","Arabic",1,233
+"ar","Arabic",1,234
 "cs","Czech",1,74
 "da","Danish",1,80
-"de","German",1,391
+"de","German",1,392
 "de-DE","German (Germany)",1,96
-"en","English",1,20011
+"en","English",1,20047
 "en-CA","English (Canada)",1,12
-"en-GB","English (United Kingdom)",1,104
+"en-GB","English (United Kingdom)",1,105
 "en-US","English (United States)",1,665
-"es","Spanish",1,1292
+"es","Spanish",1,1293
 "es-419","Spanish (Latin America)",1,175
 "es-ES","Spanish (Spain)",1,137
 "es-MX","Spanish (Mexico)",1,137
 "fa-IR","Persian (Iran)",1,11
-"fi","Finnish",1,116
-"fr","French",1,489
+"fi","Finnish",1,117
+"fr","French",1,490
 "fr-FR","French (France)",1,80
 "hi","Hindi",1,135
-"id","Indonesian",1,273
-"it","Italian",1,354
-"ja","Japanese",1,521
-"ko","Korean",1,632
+"id","Indonesian",1,274
+"it","Italian",1,355
+"ja","Japanese",1,522
+"ko","Korean",1,633
 "ms","Malay",1,42
-"nl","Dutch",1,317
+"nl","Dutch",1,318
 "nl-NL","Dutch (Netherands)",1,65
-"no","Norwegian",1,82
+"no","Norwegian",1,83
 "pl","Polish",1,237
-"pt","Portugese",1,358
+"pt","Portugese",1,359
 "pt-BR","Portugese (Brazil)",1,289
 "pt-PT","Portugese (Portugal)",1,62
-"ru","Russian",1,432
+"ru","Russian",1,433
 "sv","Swedish",1,99
-"th","Thai",1,234
-"tr","Turkish",1,187
+"th","Thai",1,235
+"tr","Turkish",1,188
 "vi","Vietnamese",1,224
 "yue-HK","Cantonese (Hong Kong)",1,6
 "zh-CN","Chinese (China)",1,26
@@ -40,7 +40,7 @@
 "zh-Hant","Chinese (Traditional)",1,243
 "zh-HK","Chinese (Hong Kong)",1,22
 "zh-SG","Chinese (Singapore)",1,2
-"zh-TW","Chinese (Taiwan)",1,52
+"zh-TW","Chinese (Taiwan)",1,53
 "en-IE","English (Ireland)",1,6
 "az","Azerbaijani",1,10
 "bg","Bulgarian",1,22
@@ -48,7 +48,7 @@
 "ca","Catalan",1,14
 "el","Greek",1,46
 "eu","Basque",1,8
-"fa","Persian",1,17
+"fa","Persian",1,18
 "fil","Filipino",1,61
 "hr","Croatian",1,21
 "hu","Hungarian",1,43
@@ -64,7 +64,7 @@
 "sl","Slovenian",1,13
 "sr","Serbian",1,12
 "uk","Ukrainian",1,23
-"zh","Chinese",1,153
+"zh","Chinese",1,154
 "am","Amhric",1,3
 "hy","Amenian",1,6
 "is","Icelandic",1,5
