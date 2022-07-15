@@ -1,43 +1,43 @@
 "code","language","from_data","n_vid"
 "ar","Arabic",1,237
-"cs","Czech",1,76
+"cs","Czech",1,77
 "da","Danish",1,81
-"de","German",1,399
+"de","German",1,400
 "de-DE","German (Germany)",1,96
-"en","English",1,20569
+"en","English",1,20616
 "en-CA","English (Canada)",1,12
 "en-GB","English (United Kingdom)",1,107
-"en-US","English (United States)",1,685
-"es","Spanish",1,1315
-"es-419","Spanish (Latin America)",1,179
-"es-ES","Spanish (Spain)",1,139
-"es-MX","Spanish (Mexico)",1,139
+"en-US","English (United States)",1,689
+"es","Spanish",1,1316
+"es-419","Spanish (Latin America)",1,180
+"es-ES","Spanish (Spain)",1,140
+"es-MX","Spanish (Mexico)",1,140
 "fa-IR","Persian (Iran)",1,11
 "fi","Finnish",1,118
-"fr","French",1,498
+"fr","French",1,499
 "fr-FR","French (France)",1,81
 "hi","Hindi",1,135
-"id","Indonesian",1,281
-"it","Italian",1,359
-"ja","Japanese",1,531
-"ko","Korean",1,644
-"ms","Malay",1,42
+"id","Indonesian",1,282
+"it","Italian",1,360
+"ja","Japanese",1,533
+"ko","Korean",1,647
+"ms","Malay",1,43
 "nl","Dutch",1,319
 "nl-NL","Dutch (Netherands)",1,68
 "no","Norwegian",1,84
-"pl","Polish",1,239
+"pl","Polish",1,240
 "pt","Portugese",1,365
-"pt-BR","Portugese (Brazil)",1,292
+"pt-BR","Portugese (Brazil)",1,293
 "pt-PT","Portugese (Portugal)",1,63
-"ru","Russian",1,440
+"ru","Russian",1,441
 "sv","Swedish",1,100
-"th","Thai",1,241
-"tr","Turkish",1,191
-"vi","Vietnamese",1,231
+"th","Thai",1,242
+"tr","Turkish",1,192
+"vi","Vietnamese",1,232
 "yue-HK","Cantonese (Hong Kong)",1,6
 "zh-CN","Chinese (China)",1,26
-"zh-Hans","Chinese (Simplified)",1,295
-"zh-Hant","Chinese (Traditional)",1,250
+"zh-Hans","Chinese (Simplified)",1,296
+"zh-Hant","Chinese (Traditional)",1,251
 "zh-HK","Chinese (Hong Kong)",1,22
 "zh-SG","Chinese (Singapore)",1,2
 "zh-TW","Chinese (Taiwan)",1,53
@@ -46,12 +46,12 @@
 "bg","Bulgarian",1,22
 "bn","Bangla",1,10
 "ca","Catalan",1,14
-"el","Greek",1,48
+"el","Greek",1,49
 "eu","Basque",1,8
 "fa","Persian",1,18
 "fil","Filipino",1,61
 "hr","Croatian",1,23
-"hu","Hungarian",1,45
+"hu","Hungarian",1,46
 "iw","Hebrew",1,25
 "kk","Kazakh",1,8
 "km","Khmer",1,12
@@ -59,7 +59,7 @@
 "mk","Macedonian",1,9
 "mn","Mongolian",1,8
 "my","Burmese",1,8
-"ro","Romanian",1,38
+"ro","Romanian",1,39
 "sk","Slovak",1,19
 "sl","Slovenian",1,13
 "sr","Serbian",1,12
