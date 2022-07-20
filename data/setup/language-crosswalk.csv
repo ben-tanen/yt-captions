@@ -1,43 +1,43 @@
 "code","language","from_data","n_vid"
-"ar","Arabic",1,239
+"ar","Arabic",1,240
 "cs","Czech",1,78
-"da","Danish",1,82
+"da","Danish",1,83
 "de","German",1,403
-"de-DE","German (Germany)",1,96
-"en","English",1,20779
+"de-DE","German (Germany)",1,97
+"en","English",1,20817
 "en-CA","English (Canada)",1,13
 "en-GB","English (United Kingdom)",1,108
-"en-US","English (United States)",1,692
+"en-US","English (United States)",1,693
 "es","Spanish",1,1320
 "es-419","Spanish (Latin America)",1,182
-"es-ES","Spanish (Spain)",1,141
-"es-MX","Spanish (Mexico)",1,141
+"es-ES","Spanish (Spain)",1,142
+"es-MX","Spanish (Mexico)",1,142
 "fa-IR","Persian (Iran)",1,11
-"fi","Finnish",1,119
+"fi","Finnish",1,120
 "fr","French",1,502
-"fr-FR","French (France)",1,81
+"fr-FR","French (France)",1,82
 "hi","Hindi",1,137
 "id","Indonesian",1,283
-"it","Italian",1,363
-"ja","Japanese",1,536
-"ko","Korean",1,650
+"it","Italian",1,364
+"ja","Japanese",1,537
+"ko","Korean",1,651
 "ms","Malay",1,44
 "nl","Dutch",1,321
-"nl-NL","Dutch (Netherands)",1,68
-"no","Norwegian",1,84
-"pl","Polish",1,242
+"nl-NL","Dutch (Netherands)",1,69
+"no","Norwegian",1,85
+"pl","Polish",1,243
 "pt","Portugese",1,367
-"pt-BR","Portugese (Brazil)",1,295
-"pt-PT","Portugese (Portugal)",1,63
-"ru","Russian",1,443
-"sv","Swedish",1,101
+"pt-BR","Portugese (Brazil)",1,296
+"pt-PT","Portugese (Portugal)",1,64
+"ru","Russian",1,444
+"sv","Swedish",1,102
 "th","Thai",1,244
 "tr","Turkish",1,194
 "vi","Vietnamese",1,233
 "yue-HK","Cantonese (Hong Kong)",1,6
 "zh-CN","Chinese (China)",1,26
-"zh-Hans","Chinese (Simplified)",1,298
-"zh-Hant","Chinese (Traditional)",1,253
+"zh-Hans","Chinese (Simplified)",1,299
+"zh-Hant","Chinese (Traditional)",1,254
 "zh-HK","Chinese (Hong Kong)",1,22
 "zh-SG","Chinese (Singapore)",1,2
 "zh-TW","Chinese (Taiwan)",1,53
@@ -74,7 +74,7 @@
 "eo","Esperanto",1,7
 "id-ID","Indonesian (Indonesia)",1,1
 "es-US","Spanish (United States)",1,13
-"fr-CA","French (Canada)",1,45
+"fr-CA","French (Canada)",1,46
 "et","Estonian",1,6
 "fa-AF","Persian (Afghanistan)",1,1
 "lt","Lithuanian",1,9
