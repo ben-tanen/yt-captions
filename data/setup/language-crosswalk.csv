@@ -1,43 +1,43 @@
 "code","language","from_data","n_vid"
-"ar","Arabic",1,242
+"ar","Arabic",1,243
 "cs","Czech",1,78
-"da","Danish",1,84
+"da","Danish",1,85
 "de","German",1,406
-"de-DE","German (Germany)",1,97
-"en","English",1,20997
+"de-DE","German (Germany)",1,98
+"en","English",1,21030
 "en-CA","English (Canada)",1,13
 "en-GB","English (United Kingdom)",1,111
 "en-US","English (United States)",1,701
-"es","Spanish",1,1327
+"es","Spanish",1,1328
 "es-419","Spanish (Latin America)",1,183
-"es-ES","Spanish (Spain)",1,143
-"es-MX","Spanish (Mexico)",1,143
+"es-ES","Spanish (Spain)",1,144
+"es-MX","Spanish (Mexico)",1,144
 "fa-IR","Persian (Iran)",1,11
-"fi","Finnish",1,121
+"fi","Finnish",1,122
 "fr","French",1,505
-"fr-FR","French (France)",1,83
+"fr-FR","French (France)",1,84
 "hi","Hindi",1,137
 "id","Indonesian",1,284
-"it","Italian",1,366
-"ja","Japanese",1,544
-"ko","Korean",1,655
+"it","Italian",1,367
+"ja","Japanese",1,546
+"ko","Korean",1,657
 "ms","Malay",1,45
 "nl","Dutch",1,321
-"nl-NL","Dutch (Netherands)",1,70
-"no","Norwegian",1,85
-"pl","Polish",1,244
+"nl-NL","Dutch (Netherands)",1,71
+"no","Norwegian",1,86
+"pl","Polish",1,245
 "pt","Portugese",1,367
-"pt-BR","Portugese (Brazil)",1,298
-"pt-PT","Portugese (Portugal)",1,65
-"ru","Russian",1,445
-"sv","Swedish",1,103
+"pt-BR","Portugese (Brazil)",1,299
+"pt-PT","Portugese (Portugal)",1,66
+"ru","Russian",1,446
+"sv","Swedish",1,104
 "th","Thai",1,245
 "tr","Turkish",1,194
 "vi","Vietnamese",1,234
 "yue-HK","Cantonese (Hong Kong)",1,6
 "zh-CN","Chinese (China)",1,26
-"zh-Hans","Chinese (Simplified)",1,300
-"zh-Hant","Chinese (Traditional)",1,255
+"zh-Hans","Chinese (Simplified)",1,301
+"zh-Hant","Chinese (Traditional)",1,256
 "zh-HK","Chinese (Hong Kong)",1,23
 "zh-SG","Chinese (Singapore)",1,2
 "zh-TW","Chinese (Taiwan)",1,54
@@ -74,7 +74,7 @@
 "eo","Esperanto",1,7
 "id-ID","Indonesian (Indonesia)",1,1
 "es-US","Spanish (United States)",1,13
-"fr-CA","French (Canada)",1,46
+"fr-CA","French (Canada)",1,47
 "et","Estonian",1,6
 "fa-AF","Persian (Afghanistan)",1,1
 "lt","Lithuanian",1,9
