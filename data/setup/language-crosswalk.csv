@@ -1,43 +1,43 @@
 "code","language","from_data","n_vid"
-"ar","Arabic",1,249
+"ar","Arabic",1,250
 "cs","Czech",1,79
-"da","Danish",1,88
+"da","Danish",1,89
 "de","German",1,416
-"de-DE","German (Germany)",1,101
-"en","English",1,21510
-"en-CA","English (Canada)",1,13
+"de-DE","German (Germany)",1,102
+"en","English",1,21547
+"en-CA","English (Canada)",1,14
 "en-GB","English (United Kingdom)",1,114
-"en-US","English (United States)",1,714
-"es","Spanish",1,1359
+"en-US","English (United States)",1,716
+"es","Spanish",1,1360
 "es-419","Spanish (Latin America)",1,192
-"es-ES","Spanish (Spain)",1,148
-"es-MX","Spanish (Mexico)",1,148
+"es-ES","Spanish (Spain)",1,149
+"es-MX","Spanish (Mexico)",1,149
 "fa-IR","Persian (Iran)",1,11
-"fi","Finnish",1,125
+"fi","Finnish",1,126
 "fr","French",1,517
-"fr-FR","French (France)",1,86
+"fr-FR","French (France)",1,87
 "hi","Hindi",1,142
 "id","Indonesian",1,290
-"it","Italian",1,380
-"ja","Japanese",1,562
-"ko","Korean",1,672
+"it","Italian",1,381
+"ja","Japanese",1,564
+"ko","Korean",1,674
 "ms","Malay",1,45
 "nl","Dutch",1,327
-"nl-NL","Dutch (Netherands)",1,73
-"no","Norwegian",1,89
-"pl","Polish",1,252
+"nl-NL","Dutch (Netherands)",1,74
+"no","Norwegian",1,90
+"pl","Polish",1,253
 "pt","Portugese",1,372
-"pt-BR","Portugese (Brazil)",1,307
-"pt-PT","Portugese (Portugal)",1,69
-"ru","Russian",1,455
-"sv","Swedish",1,106
+"pt-BR","Portugese (Brazil)",1,308
+"pt-PT","Portugese (Portugal)",1,70
+"ru","Russian",1,456
+"sv","Swedish",1,107
 "th","Thai",1,251
 "tr","Turkish",1,199
 "vi","Vietnamese",1,236
 "yue-HK","Cantonese (Hong Kong)",1,6
 "zh-CN","Chinese (China)",1,26
-"zh-Hans","Chinese (Simplified)",1,311
-"zh-Hant","Chinese (Traditional)",1,264
+"zh-Hans","Chinese (Simplified)",1,312
+"zh-Hant","Chinese (Traditional)",1,265
 "zh-HK","Chinese (Hong Kong)",1,24
 "zh-SG","Chinese (Singapore)",1,2
 "zh-TW","Chinese (Taiwan)",1,55
@@ -74,7 +74,7 @@
 "eo","Esperanto",1,7
 "id-ID","Indonesian (Indonesia)",1,1
 "es-US","Spanish (United States)",1,13
-"fr-CA","French (Canada)",1,49
+"fr-CA","French (Canada)",1,50
 "et","Estonian",1,6
 "fa-AF","Persian (Afghanistan)",1,1
 "lt","Lithuanian",1,9
