@@ -4,12 +4,12 @@
 "da","Danish",1,89
 "de","German",1,420
 "de-DE","German (Germany)",1,102
-"en","English",1,21651
+"en","English",1,21683
 "en-CA","English (Canada)",1,14
-"en-GB","English (United Kingdom)",1,114
-"en-US","English (United States)",1,721
-"es","Spanish",1,1365
-"es-419","Spanish (Latin America)",1,193
+"en-GB","English (United Kingdom)",1,115
+"en-US","English (United States)",1,723
+"es","Spanish",1,1366
+"es-419","Spanish (Latin America)",1,194
 "es-ES","Spanish (Spain)",1,149
 "es-MX","Spanish (Mexico)",1,149
 "fa-IR","Persian (Iran)",1,11
@@ -19,7 +19,7 @@
 "hi","Hindi",1,142
 "id","Indonesian",1,293
 "it","Italian",1,383
-"ja","Japanese",1,568
+"ja","Japanese",1,569
 "ko","Korean",1,677
 "ms","Malay",1,46
 "nl","Dutch",1,328
