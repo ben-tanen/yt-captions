@@ -2,22 +2,22 @@
 "ar","Arabic",1,268
 "cs","Czech",1,88
 "da","Danish",1,94
-"de","German",1,449
+"de","German",1,450
 "de-DE","German (Germany)",1,105
-"en","English",1,23266
+"en","English",1,23303
 "en-CA","English (Canada)",1,15
-"en-GB","English (United Kingdom)",1,135
-"en-US","English (United States)",1,779
-"es","Spanish",1,1444
+"en-GB","English (United Kingdom)",1,137
+"en-US","English (United States)",1,780
+"es","Spanish",1,1445
 "es-419","Spanish (Latin America)",1,206
 "es-ES","Spanish (Spain)",1,157
 "es-MX","Spanish (Mexico)",1,157
 "fa-IR","Persian (Iran)",1,11
 "fi","Finnish",1,132
-"fr","French",1,551
+"fr","French",1,552
 "fr-FR","French (France)",1,90
-"hi","Hindi",1,151
-"id","Indonesian",1,307
+"hi","Hindi",1,152
+"id","Indonesian",1,308
 "it","Italian",1,404
 "ja","Japanese",1,600
 "ko","Korean",1,705
@@ -26,7 +26,7 @@
 "nl-NL","Dutch (Netherands)",1,76
 "no","Norwegian",1,96
 "pl","Polish",1,269
-"pt","Portugese",1,389
+"pt","Portugese",1,390
 "pt-BR","Portugese (Brazil)",1,330
 "pt-PT","Portugese (Portugal)",1,73
 "ru","Russian",1,473
@@ -49,7 +49,7 @@
 "el","Greek",1,56
 "eu","Basque",1,9
 "fa","Persian",1,19
-"fil","Filipino",1,67
+"fil","Filipino",1,68
 "hr","Croatian",1,27
 "hu","Hungarian",1,53
 "iw","Hebrew",1,26
@@ -115,7 +115,7 @@
 "so",NA,1,1
 "sr-Latn",NA,1,1
 "tlh",NA,1,1
-"ur",NA,1,2
+"ur",NA,1,3
 "ne",NA,1,1
 "sco",NA,1,1
 "rm",NA,1,2
