@@ -2,32 +2,32 @@
 "ar","Arabic",1,268
 "cs","Czech",1,88
 "da","Danish",1,94
-"de","German",1,451
+"de","German",1,452
 "de-DE","German (Germany)",1,105
-"en","English",1,23406
+"en","English",1,23432
 "en-CA","English (Canada)",1,15
 "en-GB","English (United Kingdom)",1,137
-"en-US","English (United States)",1,787
-"es","Spanish",1,1448
+"en-US","English (United States)",1,788
+"es","Spanish",1,1452
 "es-419","Spanish (Latin America)",1,206
-"es-ES","Spanish (Spain)",1,157
+"es-ES","Spanish (Spain)",1,158
 "es-MX","Spanish (Mexico)",1,157
 "fa-IR","Persian (Iran)",1,11
 "fi","Finnish",1,132
-"fr","French",1,553
+"fr","French",1,554
 "fr-FR","French (France)",1,90
-"hi","Hindi",1,152
+"hi","Hindi",1,153
 "id","Indonesian",1,308
 "it","Italian",1,404
-"ja","Japanese",1,602
-"ko","Korean",1,706
+"ja","Japanese",1,603
+"ko","Korean",1,707
 "ms","Malay",1,48
 "nl","Dutch",1,336
 "nl-NL","Dutch (Netherands)",1,76
 "no","Norwegian",1,96
 "pl","Polish",1,269
 "pt","Portugese",1,390
-"pt-BR","Portugese (Brazil)",1,330
+"pt-BR","Portugese (Brazil)",1,331
 "pt-PT","Portugese (Portugal)",1,73
 "ru","Russian",1,473
 "sv","Swedish",1,114
@@ -36,8 +36,8 @@
 "vi","Vietnamese",1,246
 "yue-HK","Cantonese (Hong Kong)",1,6
 "zh-CN","Chinese (China)",1,29
-"zh-Hans","Chinese (Simplified)",1,327
-"zh-Hant","Chinese (Traditional)",1,281
+"zh-Hans","Chinese (Simplified)",1,328
+"zh-Hant","Chinese (Traditional)",1,282
 "zh-HK","Chinese (Hong Kong)",1,24
 "zh-SG","Chinese (Singapore)",1,2
 "zh-TW","Chinese (Taiwan)",1,59
@@ -49,7 +49,7 @@
 "el","Greek",1,56
 "eu","Basque",1,9
 "fa","Persian",1,19
-"fil","Filipino",1,68
+"fil","Filipino",1,69
 "hr","Croatian",1,27
 "hu","Hungarian",1,53
 "iw","Hebrew",1,26
@@ -72,7 +72,7 @@
 "en-IN","English (India)",1,1
 "af","Afrikaans",1,4
 "eo","Esperanto",1,7
-"id-ID","Indonesian (Indonesia)",1,1
+"id-ID","Indonesian (Indonesia)",1,2
 "es-US","Spanish (United States)",1,13
 "fr-CA","French (Canada)",1,53
 "et","Estonian",1,7
@@ -122,4 +122,5 @@
 "sm",NA,1,1
 "yo",NA,1,1
 "lg",NA,1,1
+"ms-MY",NA,1,1
 "rw","Kinyarwanda",NA,NA
