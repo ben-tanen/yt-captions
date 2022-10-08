@@ -1,14 +1,14 @@
 "code","language","from_data","n_vid"
-"ar","Arabic",1,268
+"ar","Arabic",1,269
 "cs","Czech",1,88
 "da","Danish",1,94
 "de","German",1,452
 "de-DE","German (Germany)",1,106
-"en","English",1,23643
+"en","English",1,23676
 "en-CA","English (Canada)",1,15
 "en-GB","English (United Kingdom)",1,139
-"en-US","English (United States)",1,796
-"es","Spanish",1,1456
+"en-US","English (United States)",1,797
+"es","Spanish",1,1458
 "es-419","Spanish (Latin America)",1,208
 "es-ES","Spanish (Spain)",1,160
 "es-MX","Spanish (Mexico)",1,157
@@ -16,11 +16,11 @@
 "fi","Finnish",1,132
 "fr","French",1,554
 "fr-FR","French (France)",1,91
-"hi","Hindi",1,153
-"id","Indonesian",1,310
+"hi","Hindi",1,154
+"id","Indonesian",1,311
 "it","Italian",1,405
-"ja","Japanese",1,607
-"ko","Korean",1,711
+"ja","Japanese",1,608
+"ko","Korean",1,712
 "ms","Malay",1,48
 "nl","Dutch",1,336
 "nl-NL","Dutch (Netherands)",1,76
@@ -31,7 +31,7 @@
 "pt-PT","Portugese (Portugal)",1,73
 "ru","Russian",1,474
 "sv","Swedish",1,114
-"th","Thai",1,270
+"th","Thai",1,271
 "tr","Turkish",1,212
 "vi","Vietnamese",1,247
 "yue-HK","Cantonese (Hong Kong)",1,6
@@ -64,7 +64,7 @@
 "sl","Slovenian",1,14
 "sr","Serbian",1,14
 "uk","Ukrainian",1,25
-"zh","Chinese",1,180
+"zh","Chinese",1,181
 "am","Amhric",1,3
 "hy","Amenian",1,6
 "is","Icelandic",1,5
