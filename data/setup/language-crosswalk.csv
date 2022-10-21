@@ -1,43 +1,43 @@
 "code","language","from_data","n_vid"
-"ar","Arabic",1,274
+"ar","Arabic",1,275
 "cs","Czech",1,89
-"da","Danish",1,97
-"de","German",1,458
-"de-DE","German (Germany)",1,107
-"en","English",1,24099
+"da","Danish",1,98
+"de","German",1,460
+"de-DE","German (Germany)",1,108
+"en","English",1,24132
 "en-CA","English (Canada)",1,15
 "en-GB","English (United Kingdom)",1,145
 "en-US","English (United States)",1,808
-"es","Spanish",1,1477
+"es","Spanish",1,1478
 "es-419","Spanish (Latin America)",1,211
-"es-ES","Spanish (Spain)",1,163
-"es-MX","Spanish (Mexico)",1,159
+"es-ES","Spanish (Spain)",1,164
+"es-MX","Spanish (Mexico)",1,160
 "fa-IR","Persian (Iran)",1,11
-"fi","Finnish",1,135
-"fr","French",1,560
-"fr-FR","French (France)",1,92
+"fi","Finnish",1,136
+"fr","French",1,561
+"fr-FR","French (France)",1,93
 "hi","Hindi",1,158
-"id","Indonesian",1,315
-"it","Italian",1,410
-"ja","Japanese",1,617
-"ko","Korean",1,723
-"ms","Malay",1,49
+"id","Indonesian",1,316
+"it","Italian",1,411
+"ja","Japanese",1,619
+"ko","Korean",1,725
+"ms","Malay",1,50
 "nl","Dutch",1,341
-"nl-NL","Dutch (Netherands)",1,77
-"no","Norwegian",1,99
-"pl","Polish",1,272
+"nl-NL","Dutch (Netherands)",1,78
+"no","Norwegian",1,100
+"pl","Polish",1,273
 "pt","Portugese",1,395
-"pt-BR","Portugese (Brazil)",1,335
-"pt-PT","Portugese (Portugal)",1,74
-"ru","Russian",1,476
-"sv","Swedish",1,117
-"th","Thai",1,275
+"pt-BR","Portugese (Brazil)",1,336
+"pt-PT","Portugese (Portugal)",1,75
+"ru","Russian",1,477
+"sv","Swedish",1,118
+"th","Thai",1,276
 "tr","Turkish",1,213
-"vi","Vietnamese",1,248
+"vi","Vietnamese",1,249
 "yue-HK","Cantonese (Hong Kong)",1,6
 "zh-CN","Chinese (China)",1,29
-"zh-Hans","Chinese (Simplified)",1,332
-"zh-Hant","Chinese (Traditional)",1,285
+"zh-Hans","Chinese (Simplified)",1,334
+"zh-Hant","Chinese (Traditional)",1,287
 "zh-HK","Chinese (Hong Kong)",1,26
 "zh-SG","Chinese (Singapore)",1,2
 "zh-TW","Chinese (Taiwan)",1,61
@@ -74,7 +74,7 @@
 "eo","Esperanto",1,7
 "id-ID","Indonesian (Indonesia)",1,2
 "es-US","Spanish (United States)",1,14
-"fr-CA","French (Canada)",1,56
+"fr-CA","French (Canada)",1,57
 "et","Estonian",1,8
 "fa-AF","Persian (Afghanistan)",1,1
 "lt","Lithuanian",1,11
