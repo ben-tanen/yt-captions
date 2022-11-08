@@ -1,128 +1,146 @@
 "code","language","from_data","n_vid"
-"ar","Arabic",1,283
-"cs","Czech",1,90
-"da","Danish",1,99
-"de","German",1,476
+"ar","Arabic",1,285
+"cs","Czech",1,91
+"da","Danish",1,100
+"de","German",1,478
 "de-DE","German (Germany)",1,109
-"en","English",1,24694
+"en","English",1,24729
 "en-CA","English (Canada)",1,15
 "en-GB","English (United Kingdom)",1,148
-"en-US","English (United States)",1,830
-"es","Spanish",1,1517
+"en-US","English (United States)",1,831
+"es","Spanish",1,1519
 "es-419","Spanish (Latin America)",1,218
 "es-ES","Spanish (Spain)",1,167
 "es-MX","Spanish (Mexico)",1,162
 "fa-IR","Persian (Iran)",1,11
-"fi","Finnish",1,139
-"fr","French",1,576
+"fi","Finnish",1,141
+"fr","French",1,578
 "fr-FR","French (France)",1,94
-"hi","Hindi",1,164
-"id","Indonesian",1,326
-"it","Italian",1,420
-"ja","Japanese",1,634
-"ko","Korean",1,735
-"ms","Malay",1,55
-"nl","Dutch",1,347
+"hi","Hindi",1,165
+"id","Indonesian",1,328
+"it","Italian",1,422
+"ja","Japanese",1,636
+"ko","Korean",1,737
+"ms","Malay",1,56
+"nl","Dutch",1,349
 "nl-NL","Dutch (Netherands)",1,78
-"no","Norwegian",1,100
-"pl","Polish",1,280
-"pt","Portugese",1,403
+"no","Norwegian",1,102
+"pl","Polish",1,281
+"pt","Portugese",1,405
 "pt-BR","Portugese (Brazil)",1,345
 "pt-PT","Portugese (Portugal)",1,75
-"ru","Russian",1,490
-"sv","Swedish",1,119
-"th","Thai",1,286
-"tr","Turkish",1,216
-"vi","Vietnamese",1,257
+"ru","Russian",1,491
+"sv","Swedish",1,120
+"th","Thai",1,288
+"tr","Turkish",1,218
+"vi","Vietnamese",1,258
 "yue-HK","Cantonese (Hong Kong)",1,7
 "zh-CN","Chinese (China)",1,29
-"zh-Hans","Chinese (Simplified)",1,345
-"zh-Hant","Chinese (Traditional)",1,298
-"zh-HK","Chinese (Hong Kong)",1,26
+"zh-Hans","Chinese (Simplified)",1,346
+"zh-Hant","Chinese (Traditional)",1,299
+"zh-HK","Chinese (Hong Kong)",1,27
 "zh-SG","Chinese (Singapore)",1,2
-"zh-TW","Chinese (Taiwan)",1,62
+"zh-TW","Chinese (Taiwan)",1,64
 "en-IE","English (Ireland)",1,6
-"az","Azerbaijani",1,13
-"bg","Bulgarian",1,26
-"bn","Bangla",1,13
-"ca","Catalan",1,18
-"el","Greek",1,58
-"eu","Basque",1,11
-"fa","Persian",1,20
-"fil","Filipino",1,73
-"hr","Croatian",1,29
-"hu","Hungarian",1,55
-"iw","Hebrew",1,28
-"kk","Kazakh",1,11
-"km","Khmer",1,15
-"lo","Lao",1,12
-"mk","Macedonian",1,12
-"mn","Mongolian",1,12
-"my","Burmese",1,11
-"ro","Romanian",1,49
-"sk","Slovak",1,23
-"sl","Slovenian",1,16
-"sr","Serbian",1,16
-"uk","Ukrainian",1,26
+"az","Azerbaijani",1,14
+"bg","Bulgarian",1,27
+"bn","Bangla",1,14
+"ca","Catalan",1,19
+"el","Greek",1,59
+"eu","Basque",1,12
+"fa","Persian",1,21
+"fil","Filipino",1,74
+"hr","Croatian",1,30
+"hu","Hungarian",1,56
+"iw","Hebrew",1,29
+"kk","Kazakh",1,12
+"km","Khmer",1,16
+"lo","Lao",1,13
+"mk","Macedonian",1,13
+"mn","Mongolian",1,13
+"my","Burmese",1,13
+"ro","Romanian",1,50
+"sk","Slovak",1,24
+"sl","Slovenian",1,17
+"sr","Serbian",1,17
+"uk","Ukrainian",1,27
 "zh","Chinese",1,188
-"am","Amhric",1,4
-"hy","Amenian",1,7
-"is","Icelandic",1,6
+"am","Amhric",1,5
+"hy","Amenian",1,8
+"is","Icelandic",1,7
 "ru-Latn","Russian (Latin)",1,1
 "en-IN","English (India)",1,1
-"af","Afrikaans",1,7
-"eo","Esperanto",1,7
+"af","Afrikaans",1,8
+"eo","Esperanto",1,8
 "id-ID","Indonesian (Indonesia)",1,5
 "es-US","Spanish (United States)",1,15
 "fr-CA","French (Canada)",1,57
-"et","Estonian",1,8
+"et","Estonian",1,9
 "fa-AF","Persian (Afghanistan)",1,1
-"lt","Lithuanian",1,11
-"lv","Latvian",1,11
-"ta","Tamil",1,7
-"zu","Zulu",1,5
+"lt","Lithuanian",1,12
+"lv","Latvian",1,12
+"ta","Tamil",1,8
+"zu","Zulu",1,6
 "fj","Fijian",1,7
 "yue","Cantonese",1,8
-"gu","Gujarati",1,4
-"kn","Kannada",1,4
-"ml","Malayalam",1,5
-"mr","Marathi",1,4
-"pa","Panjabi",1,7
-"sw","Swahili",1,6
-"te","Telugu",1,5
+"gu","Gujarati",1,5
+"kn","Kannada",1,5
+"ml","Malayalam",1,6
+"mr","Marathi",1,5
+"pa","Panjabi",1,8
+"sw","Swahili",1,7
+"te","Telugu",1,6
 "fr-BE","French (Belgium)",1,2
 "nl-BE","Dutch (Belgium)",1,2
-"bs",NA,1,7
-"be",NA,1,4
-"gl",NA,1,3
-"ka",NA,1,3
-"ky",NA,1,3
-"si",NA,1,3
-"sq",NA,1,4
-"uz",NA,1,4
+"bs",NA,1,8
+"be",NA,1,5
+"gl",NA,1,4
+"ka",NA,1,4
+"ky",NA,1,4
+"si",NA,1,4
+"sq",NA,1,5
+"uz",NA,1,5
 "hi-Latn",NA,1,2
-"la",NA,1,2
-"tk",NA,1,1
-"co",NA,1,1
-"cy",NA,1,1
-"ga",NA,1,2
-"gd",NA,1,1
-"ig","Igbo",1,1
-"jv",NA,1,1
-"ku",NA,1,2
-"lb",NA,1,1
-"mt",NA,1,1
-"so",NA,1,1
+"la",NA,1,3
+"tk",NA,1,2
+"co",NA,1,2
+"cy",NA,1,2
+"ga",NA,1,3
+"gd",NA,1,2
+"ig","Igbo",1,2
+"jv",NA,1,2
+"ku",NA,1,3
+"lb",NA,1,2
+"mt",NA,1,2
+"so",NA,1,2
 "sr-Latn",NA,1,1
 "tlh",NA,1,1
-"ur",NA,1,4
-"ne",NA,1,2
+"ur",NA,1,5
+"ne",NA,1,3
 "sco",NA,1,1
 "rm",NA,1,2
-"sm",NA,1,1
-"yo",NA,1,1
+"sm",NA,1,2
+"yo",NA,1,2
 "lg",NA,1,1
 "ms-MY",NA,1,1
 "ko-KR",NA,1,1
 "es-AR",NA,1,2
-"rw","Kinyarwanda",NA,NA
+"as",NA,1,1
+"fy",NA,1,1
+"ha",NA,1,1
+"haw",NA,1,1
+"ht",NA,1,1
+"mg",NA,1,1
+"mi",NA,1,1
+"or",NA,1,1
+"ps",NA,1,1
+"rw","Kinyarwanda",1,1
+"sd",NA,1,1
+"sn",NA,1,1
+"st",NA,1,1
+"su",NA,1,1
+"tg",NA,1,1
+"tt",NA,1,1
+"ug",NA,1,1
+"xh",NA,1,1
+"yi",NA,1,1
