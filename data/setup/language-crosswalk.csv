@@ -1,43 +1,43 @@
 "code","language","from_data","n_vid"
 "ar","Arabic",1,287
-"cs","Czech",1,91
-"da","Danish",1,100
-"de","German",1,481
+"cs","Czech",1,92
+"da","Danish",1,101
+"de","German",1,482
 "de-DE","German (Germany)",1,109
-"en","English",1,24960
+"en","English",1,24986
 "en-CA","English (Canada)",1,15
 "en-GB","English (United Kingdom)",1,150
-"en-US","English (United States)",1,839
-"es","Spanish",1,1526
-"es-419","Spanish (Latin America)",1,219
-"es-ES","Spanish (Spain)",1,168
+"en-US","English (United States)",1,841
+"es","Spanish",1,1529
+"es-419","Spanish (Latin America)",1,221
+"es-ES","Spanish (Spain)",1,169
 "es-MX","Spanish (Mexico)",1,162
 "fa-IR","Persian (Iran)",1,11
 "fi","Finnish",1,141
-"fr","French",1,581
+"fr","French",1,582
 "fr-FR","French (France)",1,94
 "hi","Hindi",1,166
 "id","Indonesian",1,328
-"it","Italian",1,425
-"ja","Japanese",1,639
-"ko","Korean",1,741
+"it","Italian",1,426
+"ja","Japanese",1,640
+"ko","Korean",1,742
 "ms","Malay",1,56
-"nl","Dutch",1,350
+"nl","Dutch",1,351
 "nl-NL","Dutch (Netherands)",1,78
-"no","Norwegian",1,102
-"pl","Polish",1,283
-"pt","Portugese",1,406
-"pt-BR","Portugese (Brazil)",1,346
+"no","Norwegian",1,103
+"pl","Polish",1,284
+"pt","Portugese",1,407
+"pt-BR","Portugese (Brazil)",1,347
 "pt-PT","Portugese (Portugal)",1,76
 "ru","Russian",1,493
-"sv","Swedish",1,120
-"th","Thai",1,288
-"tr","Turkish",1,219
+"sv","Swedish",1,121
+"th","Thai",1,289
+"tr","Turkish",1,220
 "vi","Vietnamese",1,259
 "yue-HK","Cantonese (Hong Kong)",1,7
 "zh-CN","Chinese (China)",1,29
-"zh-Hans","Chinese (Simplified)",1,347
-"zh-Hant","Chinese (Traditional)",1,301
+"zh-Hans","Chinese (Simplified)",1,348
+"zh-Hant","Chinese (Traditional)",1,302
 "zh-HK","Chinese (Hong Kong)",1,27
 "zh-SG","Chinese (Singapore)",1,2
 "zh-TW","Chinese (Taiwan)",1,64
@@ -45,13 +45,13 @@
 "az","Azerbaijani",1,14
 "bg","Bulgarian",1,27
 "bn","Bangla",1,14
-"ca","Catalan",1,19
-"el","Greek",1,59
+"ca","Catalan",1,20
+"el","Greek",1,60
 "eu","Basque",1,12
 "fa","Persian",1,21
 "fil","Filipino",1,74
 "hr","Croatian",1,30
-"hu","Hungarian",1,56
+"hu","Hungarian",1,57
 "iw","Hebrew",1,29
 "kk","Kazakh",1,12
 "km","Khmer",1,16
