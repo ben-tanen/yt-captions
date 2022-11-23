@@ -1,14 +1,14 @@
 "code","language","from_data","n_vid"
-"ar","Arabic",1,289
+"ar","Arabic",1,290
 "cs","Czech",1,92
 "da","Danish",1,101
 "de","German",1,485
 "de-DE","German (Germany)",1,109
-"en","English",1,25189
-"en-CA","English (Canada)",1,15
+"en","English",1,25213
+"en-CA","English (Canada)",1,16
 "en-GB","English (United Kingdom)",1,151
-"en-US","English (United States)",1,847
-"es","Spanish",1,1542
+"en-US","English (United States)",1,848
+"es","Spanish",1,1543
 "es-419","Spanish (Latin America)",1,221
 "es-ES","Spanish (Spain)",1,169
 "es-MX","Spanish (Mexico)",1,162
